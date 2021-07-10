@@ -1,0 +1,81 @@
+/*Header*/
+.header{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 4rem 4%;
+    z-index: 999;
+    max-width: 100%;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: $negro;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0 2rem;
+    padding: 0 1rem;
+    position: relative;
+}
+
+/*FX*/
+.nav-link:hover{
+    color: #5c5656;
+    transition: all 0.3s ease-in-out;   
+}
+
+.nav-link::before{
+    content: "";
+    background-color: $negro;
+    width: calc(100% - 1rem);
+    height: .2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: transform .3s ease-in-out ;
+    transform: translate(-50%, -50%) scaleX(0);
+}
+
+.nav-link:hover::before{
+    transform: translate(-50%, -50%) scaleX(1);
+}
+/*Fin FX*/
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin: 0; 
+}
+
+/*Logo*/
+.header{
+    img{
+        max-width: 85%;
+    }
+}
+
+.header{
+    img:hover{
+        transform: scale(1.04);
+        transition: all 0.2s ease-in-out;
+    }
+}
+/*Fin logo*/
+
+/*Hamburger menu*/
+.hamburger-menu{
+    display: none;
+}
+/*Fin hamburger menu*/
+/*Fin header*/

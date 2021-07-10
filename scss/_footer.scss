@@ -1,0 +1,133 @@
+/*Footer*/
+.sticky{
+    position: sticky;
+    top: 100%;  
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid;
+}
+
+.workwme{
+    padding: 0;
+    margin: 0;
+}
+
+.workwme-text{
+    position: relative;
+}
+
+.workwme-text::before{
+    content: "";
+    background-color: #161616;
+    width: calc(100% + 2rem);
+    height: .4rem;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transition: transform .3s ease-in-out ;
+    transform: translate(-50%, -50%) scaleX(0);
+}
+
+.workwme-text:hover::before{
+    transform: translate(-50%, -50%) scaleX(1);
+}
+
+.contact--footer{
+    text-align: center;
+    list-style: none;
+}
+
+.contact--footer{
+    a{
+        text-decoration: none;
+        font-size: clamp(2rem, 10vw, 8rem);
+        text-transform: uppercase;
+        color: $negro;
+        font-family: $fuenteSecundaria;
+    }
+
+    a:hover{
+        color: $naranja;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+.followme{
+    padding: clamp(5px, 2vw, 8px);
+    text-transform: uppercase;
+    color: $naranja;
+    font-size: clamp(1rem, 4vw, 2rem);
+}
+
+.social-media{
+    text-align: center;
+}
+
+.social-prop{
+    margin: 1rem 0;
+
+    a{
+        font-size: clamp(1rem, 4vw, 2rem);;
+        color: $negro;
+        margin: 0 1rem 0 1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    a:hover{
+        color: $naranja;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+.content-creator{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    margin: 2rem 0 0 0;
+}
+
+.copyright{
+    text-transform: uppercase;
+    font-size: clamp(0.5rem, 3vw, 1.2rem);
+    color: $negro;
+    font-weight: 500;
+}
+
+.web-developer{
+    text-transform: uppercase;
+    color: $negro;
+    font-size: clamp(0.5rem, 3vw, 1.2rem);
+    font-weight: 500;
+
+    a:hover{
+        color: $negro;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+.name-developer{
+    color: $naranja;
+    text-decoration: none;
+    font-size: clamp(1.1rem, 3.5vw, 1.5rem);;
+}
+
+.fa-long-arrow-alt-up{
+    position: absolute;
+    font-size: clamp(3rem, 6vw, 5rem);;
+    right: 0;
+    top: 4rem;
+    color: $negro;
+    scroll-behavior: smooth;   
+}
+
+.fa-long-arrow-alt-up:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+/*Fin footer*/

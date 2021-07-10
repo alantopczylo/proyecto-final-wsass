@@ -1,0 +1,95 @@
+/*Main section*/
+.main-col{
+    width: auto;
+}
+
+.main-section{
+    margin-top: clamp(10px, 8vw, 60px);
+    background-color: transparent;
+    overflow-y: hidden;
+}
+
+.main-section2{
+    background-color: transparent;
+    margin-bottom: clamp(10px, 4vw, 20px);
+    overflow-y: hidden;
+}
+
+.section{
+    h3{
+        font-family: $fuenteSecundaria;
+        padding: clamp(1rem, 5vw, 3rem);
+        font-size: clamp(6rem, 7vw, 6rem);
+    }
+}
+
+.main-img1{
+    width: clamp(300px, 30vw, 550px);
+    padding: clamp(1rem, 5vw, 3rem);
+}
+
+.main-img2{
+    width: clamp(300px, 30vw, 450px);
+    padding: clamp(1rem, 5vw, 3rem);
+    margin-right: 3rem;  
+}
+
+.main-img3{
+    width: clamp(300px, 30vw, 400px);
+    padding: clamp(1rem, 5vw, 3rem);
+    margin-left: 18%;
+}
+
+.main-img4{
+    width: clamp(300px, 30vw, 500px);
+    padding: clamp(1rem, 5vw, 3rem);   
+}
+
+.breath{
+    font-family: $fuenteSecundaria;
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    text-transform: uppercase;
+    color: $negro; 
+}
+
+.section{
+    h3{
+        font-size: clamp(3rem, 6vw, 15rem);
+    }
+}
+
+h1.animate__animated.animate__fadeInLeft{
+    --animate-duration: 1.5s;
+}
+
+h2.animate__animated.animate__fadeInLeft{
+    --animate-duration: 2s;
+}
+
+.s-one{
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    left: 25%;
+    z-index: -1;
+}
+
+.s-two{
+    position: absolute;
+    width: 1px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2);
+    left: 50%;
+}
+
+.s-three{
+    position: absolute;
+    width: 1px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2);
+    left: 75%;
+}
+/*Fin main section*/

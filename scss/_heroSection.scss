@@ -1,0 +1,32 @@
+/*Global sections*/
+.section{
+    position: relative;
+    height: auto;
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+/*Fin global sections*/
+
+/*Hero section*/
+.section{
+    h1{
+        font-family: $fuenteSecundaria;
+        font-size: clamp(6rem, 7vw, 40rem); 
+        color:$negro;
+    }
+
+    h2{
+        font-size: clamp(4rem, 3.5vw, 25rem);
+        text-align: center;
+        color: $negro;
+    }
+}
+
+.carousel{
+    width: clamp(400px, 35vw, 600px);
+}
+/*Fin hero section*/

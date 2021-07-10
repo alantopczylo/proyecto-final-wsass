@@ -1,0 +1,44 @@
+.section--about{
+    position: relative;
+    height: auto;
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    align-items: center;
+    overflow-x: hidden;
+    margin: 0%;
+    margin-bottom: 3rem;
+}
+
+.main-about-section{
+    background-color: transparent;
+    overflow-y: hidden;
+}
+
+.section--about{
+    h1{
+        overflow: hidden;
+        font-size: clamp(2rem, 8vw, 10rem);
+        padding: 0;
+        font-family: $fuenteSecundaria;
+        margin: 0;
+    }
+
+    h2{
+        font-size: clamp(1rem, 4vw, 3rem); 
+        text-transform: uppercase;
+        margin-top: clamp(1rem, 1vw, 2rem);
+        margin-bottom: clamp(1rem, 1vw, 2rem);
+    }
+
+    p{
+        font-size: clamp(0.5rem, 2vw, 2rem);
+        text-align:justify;
+        margin: 0rem;
+        width: clamp(400px, 35vw, 600px);   
+    }
+}
+
+.leila{
+    width: clamp(400px, 35vw, 600px); 
+}

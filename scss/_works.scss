@@ -1,0 +1,127 @@
+/*Works section*/
+.section-works{
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem,32rem));
+    grid-template-rows: 650px;
+    column-gap: 1.5rem;
+    row-gap: 2rem;
+    padding-bottom: 2rem;   
+}
+
+.card{
+    border: none; 
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.card-decoration{
+    text-decoration: none;
+    width: 50%;
+}
+
+.card-title-large{
+    font-size: clamp(1rem, 2.5rem, 4rem); 
+    color: $negro;
+    text-transform: uppercase;
+    font-family: $fuenteSecundaria;   
+}
+
+.card-title-large:hover{
+    color: $naranja;
+    transition: all 0.4s ease-in-out;
+}
+
+.card-title-small{
+    font-size: clamp(0.5rem, 1.5rem, 2rem);
+    color: $naranja;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.card-title-small:hover{
+    color: $negro;
+    transition: all 0.4s ease-in-out;
+}
+
+@mixin card-propertys ($heightCard){
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: $heightCard;
+    transition: all 0.4s ease-out;
+}
+
+.card-property{
+    @include card-propertys(600px);
+}
+
+.test{
+    background-image: url("/img/test/Test\ Principal.jpg");   
+}
+
+.test:hover{
+    background-image: url("/img/test/Test\ Secundaria.jpg");
+}
+
+.street{
+    @extend .card-property;
+    background-image: url("/img/street/Street\ Principal.jpg");  
+}
+
+.street:hover{
+    background-image: url("/img/street/Street\ Secundaria.jpg")
+}
+
+.campaign{
+    @extend .card-property;
+    background-image: url("/img/campaign/Campaign\ principal.jpg");
+}
+
+.campaign:hover{
+    background-image: url("/img/campaign/Campaign\ secundaria.jpg");
+}
+
+.product{
+    @extend .card-property;
+    background-image: url("/img/product/Producto\ principal.jpg");
+}
+
+.product:hover{
+    background-image: url("/img/product/Producto\ secundaria.jpg");
+}
+
+.breadcrumb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.breadcrumb-item a{
+    color: $naranja;
+    text-decoration: none;
+}
+/*Fin works section*/
+
+/*Image gallery works*/
+.item{
+    transition: .5s ease-in-out;
+}
+
+.item:hover{
+    filter: brightness(70%);
+}
+
+.fancybox{
+    height: auto;
+}
+/*Fin image gallery works*/

@@ -1,0 +1,31 @@
+/*-----Globales-----*/
+@import "variables";
+@import "resets";
+@import "header";
+@import "footer";
+/*-----Fin globales-----*/
+
+/*-----Index-----*/
+@import "heroSection";
+@import "mainSection";
+/*-----Fin index-----*/
+
+/*-----Works-----*/
+@import "works";
+/*-----Fin works-----*/
+
+/*-----Backstage*/
+
+/*-----Fin backstage*/
+
+/*-----About-----*/
+@import "about";
+/*-----Fin about-----*/
+
+/*-----Contact-----*/
+@import "contact";
+/*-----Fin contact-----*/
+
+/*-----Media querys------*/
+@import "mediaquery";
+/*-----Fin media querys-----*/

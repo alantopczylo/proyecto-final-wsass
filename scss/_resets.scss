@@ -1,0 +1,24 @@
+/*Resets*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: $fuentePrincipal;
+    font-size: 1.6rem;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fff8f8; 
+}
+
+.container-fluid{
+    width: 100%;
+    max-width: 175rem;
+}
+/*Fin resets*/
