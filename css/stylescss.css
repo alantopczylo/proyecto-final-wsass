@@ -4,6 +4,10 @@
 /*Fuentes*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+@font-face {
+  font-family: "";
+  src: url(); }
+
 /*Fin fuentes*/
 /*Resets*/
 * {
@@ -219,7 +223,7 @@ body {
 /*Hero section*/
 .section h1 {
   font-family: "Playfair Display", serif;
-  font-size: clamp(6rem, 7vw, 40rem);
+  font-size: clamp(6rem, 6vw, 40rem);
   color: #212529; }
 
 .section h2 {
@@ -585,7 +589,7 @@ form .form-row {
     flex-direction: column; }
   /*Hero section*/
   .section h1 {
-    font-size: clamp(4rem, 15vw, 40rem);
+    font-size: clamp(2rem, 8vw, 40rem);
     padding-left: 0; }
   .section h2 {
     font-size: clamp(3rem, 10vw, 25rem);
@@ -619,7 +623,7 @@ form .form-row {
     flex-direction: column; }
   /*Hero section*/
   .section h1 {
-    font-size: clamp(4rem, 10vw, 40rem);
+    font-size: clamp(4rem, 8vw, 40rem);
     padding-left: 0; }
   .section h2 {
     font-size: clamp(3rem, 6vw, 25rem);
@@ -737,7 +741,7 @@ form .form-row {
     flex-direction: column; }
   /*Hero section*/
   .section h1 {
-    font-size: clamp(4rem, 13vw, 40rem);
+    font-size: clamp(4rem, 10vw, 40rem);
     padding-left: 0; }
   .section h2 {
     font-size: clamp(3rem, 8vw, 25rem);
@@ -785,7 +789,7 @@ form .form-row {
     flex-direction: row; }
     .section--about h1 {
       overflow: hidden;
-      font-size: clamp(2rem, 6vw, 6rem);
+      font-size: clamp(2rem, 8vw, 6rem);
       padding: 0;
       font-family: "Playfair Display", serif; }
     .section--about h2 {
@@ -806,8 +810,8 @@ form .form-row {
   .hero-section {
     flex-direction: initial; }
   .section h1 {
-    font-size: clamp(6rem, 8vw, 7.4rem);
-    padding-left: clamp(1rem, 8vw, 7rem); }
+    font-size: clamp(3rem, 6vw, 10rem);
+    padding-left: clamp(1rem, 4vw, 7rem); }
   .section h2 {
     font-size: clamp(4rem, 4vw, 7rem);
     text-align: center;

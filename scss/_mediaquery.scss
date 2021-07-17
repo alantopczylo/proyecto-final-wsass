@@ -38,7 +38,7 @@
     /*Hero section*/
     .section{
         h1{
-            font-size: clamp(4rem, 15vw, 40rem); 
+            font-size: clamp(2rem, 8vw, 40rem); 
             padding-left: 0; 
         }
 
@@ -100,7 +100,7 @@
     /*Hero section*/
     .section{
         h1{
-            font-size: clamp(4rem, 10vw, 40rem); 
+            font-size: clamp(4rem, 8vw, 40rem); 
             padding-left: 0;  
         }
 
@@ -287,7 +287,7 @@
     /*Hero section*/
     .section{
         h1{
-            font-size: clamp(4rem, 13vw, 40rem); 
+            font-size: clamp(4rem, 10vw, 40rem); 
             padding-left: 0; 
         }
 
@@ -363,9 +363,10 @@
     .section--about{
         justify-content:space-between;
         flex-direction: row;
+        
         h1{
             overflow: hidden;
-            font-size: clamp(2rem, 6vw, 6rem);
+            font-size: clamp(2rem, 8vw, 6rem);
             padding: 0;
             font-family: $fuenteSecundaria;
         }
@@ -398,10 +399,10 @@
 
     .section{
         h1{
-            font-size: clamp(6rem, 8vw, 7.4rem); 
-            padding-left: clamp(1rem, 8vw, 7rem);
+            font-size: clamp(3rem, 6vw, 10rem); 
+            padding-left: clamp(1rem, 4vw, 7rem);
         }
-
+        
         h2{
             font-size: clamp(4rem, 4vw, 7rem);
             text-align: center;
