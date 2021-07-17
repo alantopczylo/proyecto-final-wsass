@@ -581,7 +581,7 @@ form .form-row {
     transform: scale(1); }
   /*Fin footer*/
   .breadcrumb-item {
-    font-size: clamp(2rem, 6vw, 3rem); }
+    font-size: clamp(1.5rem, 6vw, 2rem); }
   .cards {
     grid-template-columns: repeat(auto-fit, minmax(20rem, 32rem)); }
   /*Sections*/
