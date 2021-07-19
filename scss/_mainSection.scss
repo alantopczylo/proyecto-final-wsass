@@ -1,3 +1,16 @@
+/*Global sections*/
+.section2{
+    position: relative;
+    height: auto;
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+/*Fin global sections*/
+
 /*Main section*/
 .main-col{
     width: auto;
@@ -5,7 +18,6 @@
 
 .main-section{
     margin-top: clamp(10px, 8vw, 60px);
-    background-color: transparent;
     overflow-y: hidden;
 }
 
@@ -25,32 +37,167 @@
 
 .main-img1{
     width: clamp(300px, 30vw, 550px);
-    padding: clamp(1rem, 5vw, 3rem);
+    padding: clamp(1rem, 5vw, 3rem); 
+    padding-left: 0; 
 }
 
 .main-img2{
     width: clamp(300px, 30vw, 450px);
     padding: clamp(1rem, 5vw, 3rem);
-    margin-right: 3rem;  
+    padding-right: 0; 
 }
 
 .main-img3{
-    width: clamp(300px, 30vw, 400px);
-    padding: clamp(1rem, 5vw, 3rem);
-    margin-left: 18%;
+    width: clamp(300px, 30vw, 550px);
+    padding: clamp(1rem, 5vw, 3rem); 
+    padding-left: 0;  
 }
 
 .main-img4{
-    width: clamp(300px, 30vw, 500px);
-    padding: clamp(1rem, 5vw, 3rem);   
+    width: clamp(300px, 30vw, 300px);
+    padding: clamp(1rem, 5vw, 3rem); 
+    padding-right: 0;  
+}
+
+.main-img5{
+    width: clamp(300px, 30vw, 550px);
+    padding: clamp(1rem, 5vw, 3rem); 
+    padding-left: 0;  
+}
+
+.main-img6{
+    width: clamp(300px, 30vw, 300px);
+    padding: clamp(1rem, 5vw, 3rem); 
+    padding-right: 0;  
+}
+
+.main-img7{
+    width: clamp(300px, 30vw, 550px);
+    padding: clamp(1rem, 5vw, 3rem); 
+    padding-left: 0;  
+}
+
+.main-img8{
+    width: clamp(300px, 30vw, 300px);
+    padding: clamp(1rem, 5vw, 3rem); 
+    padding-right: 0;  
+}
+
+.main-img9{
+    width: clamp(300px, 30vw, 550px);
+    padding: clamp(1rem, 5vw, 3rem); 
+    padding-left: 0;  
+}
+
+.main-img10{
+    width: clamp(300px, 30vw, 300px);
+    padding: clamp(1rem, 5vw, 3rem); 
+    padding-right: 0;  
+}
+
+.main-img11{
+    width: clamp(300px, 30vw, 550px);
+    padding: clamp(1rem, 5vw, 3rem); 
+    padding-left: 0;  
+}
+
+.main-img12{
+    width: clamp(300px, 30vw, 300px);
+    padding: clamp(1rem, 5vw, 3rem); 
+    padding-right: 0;  
+}
+
+.main-text{
+    font-family: "KenokyLight";
+    text-align: right;
+    width: auto;
+    text-decoration: none;
+    color: $negro; 
+    font-size: 10rem;
+    position: absolute;
+    left:25%;
+    z-index: 1;
+}
+
+.main-text:hover{
+    color: gray;
+}
+
+.main-text2{
+    font-family: "KenokyLight";
+    font-size: 10rem;
+    text-align: left;
+    width: auto;
+    text-decoration: none;
+    color: $negro;
+    position: absolute;
+    right: 20%;
+}
+
+.main-text2:hover{
+    color: gray;
+}
+
+.main-text3{
+    font-family: "KenokyLight";
+    font-size: 10rem;
+    width: auto;
+    text-decoration: none;
+    color: $negro;
+    position: absolute;
+    left: 25%;
+}
+
+.main-text3:hover{
+    color: gray;
+}
+
+.main-text4{
+    font-family: "KenokyLight";
+    font-size: 10rem;
+    text-align: left;
+    width: auto;
+    text-decoration: none;
+    color: $negro;
+    position: absolute;
+    right: 20%;
+}
+
+.main-text4:hover{
+    color: gray;
+}
+
+.main-text5{
+    font-family: "KenokyLight";
+    font-size: 10rem;
+    text-align: right;
+    text-decoration: none;
+    color: $negro;
+    position: absolute;
+    left: 25%;
+}
+
+.main-text5:hover{
+    color: gray;
+}
+
+.main-text6{
+    font-family: "KenokyLight";
+    font-size: 10rem;
+    text-align: left;
+    width: auto;
+    text-decoration: none;
+    color: $negro;
+    position: absolute;
+    right: 20%;
+}
+
+.main-text6:hover{
+    color: gray;
 }
 
 .breath{
     font-family: $fuenteSecundaria;
-    position: absolute;
-    left: 20%;
-    top: 70%;
-    text-transform: uppercase;
     color: $negro; 
 }
 

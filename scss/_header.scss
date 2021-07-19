@@ -1,10 +1,10 @@
 /*Header*/
 .header{
     width: 100%;
-    height: 10rem;
+    height: 13rem;
     display: flex;
     align-items: center;
-    position: sticky;
+    position:relative;
     top: 0;
     left: 0;
     padding: 4rem 4%;
@@ -19,31 +19,47 @@
     position: relative;
 }
 
+.linea{
+    border-bottom: 1px solid;
+    width: 50%;
+    position: absolute;
+    top: 100%;
+}
+
 .nav-link{
     text-decoration: none;
-    color: $negro;
-    text-transform: uppercase;
+    color: rgb(95, 93, 93);;
+    text-transform:uppercase;
     font-weight: 500;
-    margin: 0 2rem;
+    margin: 0 1.5rem;
     padding: 0 1rem;
     position: relative;
+    font-family: $fuentePrincipal;
+    font-size: clamp(1rem, 3vw, 1.8rem);
+    letter-spacing: 0.3rem;
+    
+}
+
+.nav-list:nth-last-child{
+    margin: 0;
+    padding: 0;
 }
 
 /*FX*/
 .nav-link:hover{
-    color: #5c5656;
+    color: $negro;
     transition: all 0.3s ease-in-out;   
 }
 
 .nav-link::before{
     content: "";
     background-color: $negro;
-    width: calc(100% - 1rem);
+    width: calc(100% - 2rem);
     height: .2rem;
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
-    transition: transform .3s ease-in-out ;
+    transition: transform 0.2s linear;
     transform: translate(-50%, -50%) scaleX(0);
 }
 
@@ -61,7 +77,7 @@
 /*Logo*/
 .header{
     img{
-        max-width: 85%;
+        max-width: 80%;
     }
 }
 
@@ -71,6 +87,26 @@
         transition: all 0.2s ease-in-out;
     }
 }
+
+.logo{
+    text-decoration: none;
+    color: $negro;
+    text-transform:uppercase;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-family: "Bigilla";
+    font-size: clamp(2rem, 8vw, 6rem);
+    color: $negro;
+}
+
+.logo:hover{
+    color: rgb(95, 93, 93);
+    transition: 0.3s all ease-in-out;
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
+}
+
 /*Fin logo*/
 
 /*Hamburger menu*/

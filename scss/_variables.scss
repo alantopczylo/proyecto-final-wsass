@@ -1,18 +1,82 @@
 /*Colores*/
 $negro: #212529;
-$naranja:#E4572E;
+$naranja: rgb(218, 114, 40);
 /*Fin colores*/
 
 /*Fuentes*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
 
 $fuentePrincipal: 'Montserrat', sans-serif;
 $fuenteSecundaria: 'Playfair Display', serif;
 
 
 @font-face {
-    font-family: "";
-    src: url();
+    font-family: "Luthon Southard Serif";
+    src: url("../fonts/Luthon\ Southard\ Serif.otf");
+}
+
+@font-face {
+    font-family: "Luthon Southard Script";
+    src: url("../fonts/Luthon\ Southard\ Script.otf");
+}
+
+@font-face {
+    font-family: "CoffekanRegular";
+    src: url("../fonts/CoffekanRegular.ttf");
+}
+
+@font-face {
+    font-family: "KenokyLight";
+    src: url("../fonts/KenokyLight.ttf");
+}
+
+@font-face {
+    font-family: "PPTelegraf-Regular";
+    src: url("../fonts/PPTelegraf-Regular.otf");
+}
+
+@font-face {
+    font-family: "PPTelegraf-UltraBold";
+    src: url("../fonts/PPTelegraf-UltraBold.otf");
+}
+
+@font-face {
+    font-family: "PPTelegraf-UltraLight";
+    src: url("../fonts/PPTelegraf-UltraLight.otf");
+}
+
+@font-face {
+    font-family: "Bigilla";
+    src: url("../fonts/Bigilla.otf");
+}
+
+@font-face {
+    font-family: "MADE SAONARA PERSONAL USE";
+    src: url("../fonts/MADE\ SAONARA\ PERSONAL\ USE.otf");
+}
+
+@font-face {
+    font-family: "Rude";
+    src: url("../fonts/Rude.ttf");
+}
+
+@font-face {
+    font-family: "MADE SAONARA 2 PERSONAL USE";
+    src: url("../fonts/MADE\ SAONARA\ 2\ PERSONAL\ USE.otf");
+}
+
+@font-face {
+    font-family: 'argesta_displayregular';
+    src: url('argestadisplay-regular-webfont.eot');
+    src: url('argestadisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('argestadisplay-regular-webfont.woff2') format('woff2'),
+         url('argestadisplay-regular-webfont.woff') format('woff'),
+         url('argestadisplay-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
 /*Fin fuentes*/

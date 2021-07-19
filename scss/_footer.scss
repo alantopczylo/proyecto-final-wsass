@@ -7,7 +7,14 @@
 .footer{
     width: 100%;
     height: auto;
-    border-top: 1px solid;
+
+    .lineaFoot{
+        border-top: 1px solid;
+        width: 50%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
 }
 
 .workwme{
@@ -46,11 +53,11 @@
         font-size: clamp(2rem, 10vw, 8rem);
         text-transform: uppercase;
         color: $negro;
-        font-family: $fuenteSecundaria;
+        font-family: "KenokyLight";
     }
 
     a:hover{
-        color: $naranja;
+        color:  rgb(95, 93, 93);
         transition: all 0.3s ease-in-out;
     }
 }
@@ -58,7 +65,7 @@
 .followme{
     padding: clamp(5px, 2vw, 8px);
     text-transform: uppercase;
-    color: $naranja;
+    color:  rgb(95, 93, 93);
     font-size: clamp(1rem, 4vw, 2rem);
 }
 
@@ -79,7 +86,7 @@
     }
 
     a:hover{
-        color: $naranja;
+        color:  rgb(95, 93, 93);
         transition: all 0.3s ease-in-out;
     }
 }
@@ -112,7 +119,7 @@
 }
 
 .name-developer{
-    color: $naranja;
+    color: rgb(95, 93, 93);
     text-decoration: none;
     font-size: clamp(1.1rem, 3.5vw, 1.5rem);;
 }

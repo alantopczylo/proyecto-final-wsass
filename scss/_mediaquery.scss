@@ -31,24 +31,33 @@
     }
     
     /*Sections*/
-    .section{
+    .section2{
         flex-direction: column;
     }
 
     /*Hero section*/
     .section{
+        margin-bottom: 0;
+
         h1{
-            font-size: clamp(2rem, 8vw, 40rem); 
-            padding-left: 0; 
+            font-size: clamp(2rem, 15vw, 40rem); 
+            padding-left: 0;
+            margin: 0; 
+            text-align: center;
         }
 
         h2{
-            font-size: clamp(3rem, 10vw, 25rem);
+            font-size: clamp(2rem, 15vw, 40rem); 
             padding-left: 0;
+            text-align: center;
+            margin: 0; 
         }
 
-        h3{
-            font-size: clamp(6rem, 7vw, 6rem);
+        h5{
+            font-size: clamp(2rem, 15vw, 40rem);
+            padding-left: 0;
+            text-align: center;
+            margin: 0; 
         }
     }
     
@@ -75,7 +84,8 @@
 
     .main-img2{
         width: clamp(400px, 30vw, 450px);
-        margin-right: 0;    
+        margin-right: 0;
+        display: none;  
     }
 
     .main-img3{
@@ -85,11 +95,90 @@
 
     .main-img4{
         width: clamp(400px, 30vw, 500px);  
+        display: none;
     }
 
+    .main-img5{
+        width: clamp(400px, 30vw, 400px);
+    }
+
+    .main-img6{
+        display: none;
+    }
+
+    .main-img7{
+        width: clamp(400px, 30vw, 400px);
+    }
+
+    .main-img8{
+        display: none;
+    }
+
+    .main-img9{
+        width: clamp(400px, 30vw, 400px);
+    }
+
+    .main-img10{
+        display: none;
+    }
+
+    .main-img11{
+        width: clamp(400px, 30vw, 400px);
+    }
+
+    .main-img12{
+        display: none;
+    }
+
+    .main-text{
+        position: relative;
+        font-size: 4.5rem;
+        left: 0;
+        margin: 0;
+        p{
+            margin: 0;
+        }
+    }
+
+    .main-text2{
+        position: relative;
+        font-size: 4.5rem;
+        right: 0;
+        margin: 0;
+    }
+
+    .main-text3{
+        position: relative;
+        font-size: 4.5rem;
+        left: 0;
+        margin: 0;
+    }
+
+    .main-text4{
+        position: relative;
+        font-size: 4.5rem;
+        right: 0;
+        margin: 0;
+    }
+
+    .main-text5{
+        position: relative;
+        font-size: 4.5rem;
+        left: 0;
+        margin: 0;
+    }
+
+    .main-text6{
+        position: relative;
+        font-size: 4.5rem;
+        right: 0;
+    }
+
+    .logo{
+        font-size: clamp(2rem, 12vw, 6rem);
+    }
     /*Fin main section*/
     /*Fin hero section*/
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -97,21 +186,31 @@
         flex-direction: column;
     }
 
+    .section2{
+        flex-direction: column;
+    }
+
     /*Hero section*/
     .section{
         h1{
-            font-size: clamp(4rem, 8vw, 40rem); 
-            padding-left: 0;  
-        }
-
-        h2{
-            font-size: clamp(3rem, 6vw, 25rem);
+            font-size: clamp(2rem, 10vw, 40rem); 
             padding-left: 0;
+            margin: 0; 
             text-align: center;
         }
 
-        h3{
-            font-size: clamp(6rem, 7vw, 6rem);
+        h2{
+            font-size: clamp(2rem, 10vw, 40rem); 
+            padding-left: 0;
+            text-align: center;
+            margin: 0; 
+        }
+
+        h5{
+            font-size: clamp(2rem, 10vw, 40rem);
+            padding-left: 0;
+            text-align: center;
+            margin: 0; 
         }
     }
   
@@ -275,29 +374,155 @@
 
     .leila{
         width: clamp(300px, 100vw, 650px);  
-    } 
+    }
+
+    .main-section{
+        margin-bottom: 20px;
+    }
+
+    .main-img1{
+        width: clamp(400px, 30vw, 550px);
+        padding: 30px 0;
+    }
+
+    .main-img2{
+        width: clamp(400px, 30vw, 450px);
+        margin-right: 0;
+        display: none;  
+    }
+
+    .main-img3{
+        width: clamp(400px, 30vw, 400px);
+        margin-left: 0;
+        padding: 30px 0;
+    }
+
+    .main-img4{
+        width: clamp(400px, 30vw, 500px);  
+        display: none;
+    }
+
+    .main-img5{
+        width: clamp(400px, 30vw, 400px);
+        padding: 30px 0;
+    }
+
+    .main-img6{
+        display: none;
+    }
+
+    .main-img7{
+        width: clamp(400px, 30vw, 400px);
+        padding: 30px 0;
+    }
+
+    .main-img8{
+        display: none;
+    }
+
+    .main-img9{
+        width: clamp(400px, 30vw, 400px);
+        padding: 30px 0;
+    }
+
+    .main-img10{
+        display: none;
+    }
+
+    .main-img11{
+        width: clamp(400px, 30vw, 400px);
+        padding: 30px 0;
+    }
+
+    .main-img12{
+        display: none;
+    }
+
+    .main-text{
+        position: relative;
+        font-size: 4.5rem;
+        left: 0;
+        margin: 0;
+        p{
+            margin: 0;
+        }
+    }
+
+    .main-text2{
+        position: relative;
+        font-size: 4.5rem;
+        right: 0;
+        margin: 0;
+    }
+
+    .main-text3{
+        position: relative;
+        font-size: 4.5rem;
+        left: 0;
+        margin: 0;
+    }
+
+    .main-text4{
+        position: relative;
+        font-size: 4.5rem;
+        right: 0;
+        margin: 0;
+    }
+
+    .main-text5{
+        position: relative;
+        font-size: 4.5rem;
+        left: 0;
+        margin: 0;
+    }
+
+    .main-text6{
+        position: relative;
+        font-size: 4.5rem;
+        right: 0;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1400px){
+    
+    .cards{
+        grid-template-columns: 32rem 32rem;  
+    }
+    
     /*Sections*/
     .hero-section{
         flex-direction: column;
     }
 
+    .logo{
+        font-size: clamp(2rem, 5vw, 3.5rem);
+    }
+
+    .nav-link{
+        font-size: clamp(1.5rem, 1.5vw, 3.5rem) ;
+    }
+
     /*Hero section*/
     .section{
         h1{
-            font-size: clamp(4rem, 10vw, 40rem); 
-            padding-left: 0; 
+            font-size: clamp(2rem, 10vw, 40rem); 
+            padding-left: 0;
+            margin: 0; 
+            text-align: center;
         }
 
         h2{
-            font-size: clamp(3rem, 8vw, 25rem);
+            font-size: clamp(2rem, 10vw, 40rem); 
             padding-left: 0;
+            text-align: center;
+            margin: 0; 
         }
 
-        h3{
-            font-size: clamp(6rem, 7vw, 6rem);
+        h5{
+            font-size: clamp(2rem, 10vw, 40rem);
+            padding-left: 0;
+            text-align: center;
+            margin: 0; 
         }
     }
    
@@ -314,30 +539,106 @@
         margin-top: clamp(10px, 8vw, 60px);
     }
 
-    .main-section2{
-        margin-bottom: clamp(10px, 4vw, 20px);
-    }
-
     .main-img1{
-        width: clamp(400px, 50vw, 550px);
-        padding-left: 0;
+        width: clamp(400px, 30vw, 550px);
+        padding: 30px 0;
     }
 
     .main-img2{
-        width: clamp(400px, 50vw, 500px);
+        width: clamp(400px, 30vw, 450px);
         margin-right: 0;
-        padding-right: 0;  
+        display: none;  
     }
 
     .main-img3{
-        width: clamp(400px, 50vw, 500px);
+        width: clamp(400px, 30vw, 400px);
         margin-left: 0;
-        padding-left: 0; 
+        padding: 30px 0;
     }
 
     .main-img4{
-        width: clamp(400px, 50vw, 550px);
-        padding-right: 0;
+        width: clamp(400px, 30vw, 500px);  
+        display: none;
+    }
+
+    .main-img5{
+        width: clamp(400px, 30vw, 400px);
+        padding: 30px 0;
+    }
+
+    .main-img6{
+        display: none;
+    }
+
+    .main-img7{
+        width: clamp(400px, 30vw, 400px);
+        padding: 30px 0;
+    }
+
+    .main-img8{
+        display: none;
+    }
+
+    .main-img9{
+        width: clamp(400px, 30vw, 400px);
+        padding: 30px 0;
+    }
+
+    .main-img10{
+        display: none;
+    }
+
+    .main-img11{
+        width: clamp(400px, 30vw, 400px);
+        padding: 30px 0;
+    }
+
+    .main-img12{
+        display: none;
+    }
+
+    .main-text{
+        position: relative;
+        font-size: 10rem;
+        left: 0;
+        margin: 0;
+        p{
+            margin: 0;
+        }
+    }
+
+    .main-text2{
+        position: relative;
+        font-size: 10rem;
+        right: 0;
+        margin: 0;
+    }
+
+    .main-text3{
+        position: relative;
+        font-size: 10rem;
+        left: 0;
+        margin: 0;
+    }
+
+    .main-text4{
+        position: relative;
+        font-size: 10rem;
+        right: 0;
+        margin: 0;
+    }
+
+    .main-text5{
+        position: relative;
+        font-size: 10rem;
+        left: 0;
+        margin: 0;
+    }
+
+    .main-text6{
+        position: relative;
+        font-size: 10rem;
+        right: 0;
     }
 
     /*Fin main section*/
@@ -351,6 +652,10 @@
             width: auto; 
             margin-bottom: clamp(1rem, 6vw, 4rem);
         }
+    }
+
+    .logo{
+        font-size: clamp(2rem, 15vw, 6rem);
     }
 }
 
@@ -399,14 +704,24 @@
 
     .section{
         h1{
-            font-size: clamp(3rem, 6vw, 10rem); 
-            padding-left: clamp(1rem, 4vw, 7rem);
-        }
-        
-        h2{
-            font-size: clamp(4rem, 4vw, 7rem);
+            font-size: clamp(2rem, 7vw, 40rem); 
+            padding-left: 0;
+            margin: 0; 
             text-align: center;
-            padding-left: clamp(1rem, 8vw, 7rem);
+        }
+
+        h2{
+            font-size: clamp(2rem, 7vw, 40rem); 
+            padding-left: 0;
+            text-align: center;
+            margin: 0; 
+        }
+
+        h5{
+            font-size: clamp(2rem, 7vw, 40rem);
+            padding-left: 0;
+            text-align: center;
+            margin: 0; 
         }
     }
 
