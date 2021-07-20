@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     width: auto;
+    margin-bottom: 5rem;
 }
 
 .cards{
@@ -70,56 +71,56 @@
 }
 
 .test{
-    background-image: url("/img/test/Test\ Principal.jpg");   
+    background-image: url("/img/Test_Resized/Test\ Principal.jpg");   
 }
 
 .test:hover{
-    background-image: url("/img/test/Test\ Secundaria.jpg");
+    background-image: url("/img/Test_Resized/Test\ Secundaria.jpg");
 }
 
 .street{
     @extend .card-property;
-    background-image: url("/img/street/Street\ Principal.jpg");  
+    background-image: url("/img/Street_Resized/Street\ Principal.jpg");  
 }
 
 .street:hover{
-    background-image: url("/img/street/Street\ Secundaria.jpg")
+    background-image: url("/img/Street_Resized/Street\ Secundaria.jpg")
 }
 
 .campaign{
     @extend .card-property;
-    background-image: url("/img/campaign/Campaign\ principal.jpg");
+    background-image: url("/img/Campaign_Resized/Campaign\ principal.jpg");
 }
 
 .campaign:hover{
-    background-image: url("/img/campaign/Campaign\ secundaria.jpg");
-}
-
-.product{
-    @extend .card-property;
-    background-image: url("/img/product/Producto\ principal.jpg");
-}
-
-.product:hover{
-    background-image: url("/img/product/Producto\ secundaria.jpg");
+    background-image: url("/img/Campaign_Resized/Campaign\ secundaria.jpg");
 }
 
 .lookbook{
     @extend .card-property;
-    background-image: url("/img/LOOKBOOK/_DSC2873.jpg");
+    background-image: url("/img/Lookbook_Resized/lookbook1\ \(2\).jpg");
 }
 
 .lookbook:hover{
-    background-image: url("/img/LOOKBOOK/_DSC3265.jpg");
+    background-image: url("/img/Lookbook_Resized/lookbook1.jpg");
 }
 
 .social-content{
     @extend .card-property;
-    background-image: url("/img/CONTENIDO\ PARA\ REDES/_DSC9826.jpg");
+    background-image: url("/img/Contenido_Redes_Resized/Social\ principal.jpg");
 }
 
 .social-content:hover{
-    background-image: url("/img/CONTENIDO\ PARA\ REDES/_DSC9890.jpg");
+    background-image: url("/img/Contenido_Redes_Resized/Social\ secundaria.jpg");
+}
+
+.product{
+    @extend .card-property;
+    background-image: url("/img/Product_Resized/Producto\ principal.jpg");
+}
+
+.product:hover{
+    background-image: url("/img/Product_Resized/Producto\ secundaria.jpg");
 }
 
 .breadcrumb{
@@ -148,5 +149,9 @@
 
 .fancybox{
     height: auto;
+}
+
+.row{
+    margin-bottom: 5rem;
 }
 /*Fin image gallery works*/
