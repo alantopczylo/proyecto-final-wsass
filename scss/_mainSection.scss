@@ -8,6 +8,7 @@
     align-items: center;
     overflow-x: hidden;
     overflow: hidden;
+    
 }
 /*Fin global sections*/
 
@@ -17,13 +18,15 @@
 }
 
 .main-section{
-    margin-top: clamp(10px, 8vw, 60px);
+    margin-top: clamp(10px, 20vw, 10rem);
     overflow-y: hidden;
+    margin-bottom: clamp(10px, 8vw, 6rem);
 }
 
 .main-section2{
     background-color: transparent;
-    margin-bottom: clamp(10px, 4vw, 20px);
+    margin-top: clamp(10px, 20vw, 7rem);
+    margin-bottom: clamp(10px, 8vw, 6rem);
     overflow-y: hidden;
 }
 
@@ -36,61 +39,61 @@
 }
 
 .main-img1{
-    width: clamp(300px, 30vw, 550px);
+    width: clamp(300px, 50vw, 600px);
     padding: clamp(1rem, 5vw, 3rem); 
     padding-left: 0; 
 }
 
 .main-img2{
-    width: clamp(300px, 30vw, 450px);
+    width: clamp(300px, 50vw, 500px);
     padding: clamp(1rem, 5vw, 3rem);
     padding-right: 0; 
 }
 
 .main-img3{
-    width: clamp(300px, 30vw, 550px);
+    width: clamp(300px, 50vw, 450px);
     padding: clamp(1rem, 5vw, 3rem); 
     padding-left: 0;  
 }
 
 .main-img4{
-    width: clamp(300px, 30vw, 300px);
+    width: clamp(300px, 50vw, 600px);
     padding: clamp(1rem, 5vw, 3rem); 
     padding-right: 0;  
 }
 
 .main-img5{
-    width: clamp(300px, 30vw, 550px);
+    width: clamp(300px, 50vw, 600px);
     padding: clamp(1rem, 5vw, 3rem); 
     padding-left: 0;  
 }
 
 .main-img6{
-    width: clamp(300px, 30vw, 300px);
+    width: clamp(300px, 50vw, 400px);
     padding: clamp(1rem, 5vw, 3rem); 
-    padding-right: 0;  
+    padding-right: 0;
 }
 
 .main-img7{
-    width: clamp(300px, 30vw, 550px);
+    width: clamp(300px, 50vw, 450px);
     padding: clamp(1rem, 5vw, 3rem); 
     padding-left: 0;  
 }
 
 .main-img8{
-    width: clamp(300px, 30vw, 300px);
+    width: clamp(300px, 50vw, 600px);
     padding: clamp(1rem, 5vw, 3rem); 
     padding-right: 0;  
 }
 
 .main-img9{
-    width: clamp(300px, 30vw, 550px);
+    width: clamp(300px, 50vw, 600px);
     padding: clamp(1rem, 5vw, 3rem); 
     padding-left: 0;  
 }
 
 .main-img10{
-    width: clamp(300px, 30vw, 300px);
+    width: clamp(300px, 30vw, 400px);
     padding: clamp(1rem, 5vw, 3rem); 
     padding-right: 0;  
 }
@@ -102,7 +105,7 @@
 }
 
 .main-img12{
-    width: clamp(300px, 30vw, 300px);
+    width: clamp(300px, 30vw, 600px);
     padding: clamp(1rem, 5vw, 3rem); 
     padding-right: 0;  
 }
@@ -115,12 +118,28 @@
     color: $negro; 
     font-size: 10rem;
     position: absolute;
-    left:25%;
-    z-index: 1;
+    left:28%;
+    z-index: 2;
 }
+
+.main-text--sup{
+    font-family: "KenokyLight";
+    text-align: right;
+    width: auto;
+    text-decoration: none;
+    color: $negro; 
+    font-size: 10rem;
+    position: absolute;
+    left:28%;
+    z-index: 1;
+    
+    
+}
+
 
 .main-text:hover{
     color: gray;
+    transition: all 0.2s ease-in-out;
 }
 
 .main-text2{
@@ -131,11 +150,13 @@
     text-decoration: none;
     color: $negro;
     position: absolute;
-    right: 20%;
+    right: 28%;
+    z-index: 1;
 }
 
 .main-text2:hover{
     color: gray;
+    transition: all 0.2s ease-in-out;
 }
 
 .main-text3{
@@ -145,11 +166,13 @@
     text-decoration: none;
     color: $negro;
     position: absolute;
-    left: 25%;
+    left: 28%;
+    z-index: 1;
 }
 
 .main-text3:hover{
     color: gray;
+    transition: all 0.2s ease-in-out;
 }
 
 .main-text4{
@@ -160,11 +183,13 @@
     text-decoration: none;
     color: $negro;
     position: absolute;
-    right: 20%;
+    right: 28%;
+    z-index: 1;
 }
 
 .main-text4:hover{
     color: gray;
+    transition: all 0.2s ease-in-out;
 }
 
 .main-text5{
@@ -174,11 +199,13 @@
     text-decoration: none;
     color: $negro;
     position: absolute;
-    left: 25%;
+    left: 28%;
+    z-index: 1;
 }
 
 .main-text5:hover{
     color: gray;
+    transition: all 0.2s ease-in-out;
 }
 
 .main-text6{
@@ -189,11 +216,13 @@
     text-decoration: none;
     color: $negro;
     position: absolute;
-    right: 20%;
+    right: 28%;
+    z-index: 1;
 }
 
 .main-text6:hover{
     color: gray;
+    transition: all 0.2s ease-in-out;
 }
 
 .breath{

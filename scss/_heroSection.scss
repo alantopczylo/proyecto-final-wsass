@@ -9,6 +9,7 @@
     overflow-x: hidden;
     overflow: hidden;
     margin-bottom: 5rem;
+    margin-top: 3rem;
 }
 /*Fin global sections*/
 
@@ -38,7 +39,6 @@
         text-transform: uppercase; 
     }
 }
-
 .carousel{
     width: clamp(400px, 35vw, 600px);
 }

@@ -96,14 +96,16 @@
     padding: 0;
     font-weight: 600;
     font-family: "Bigilla";
-    font-size: clamp(2rem, 8vw, 6rem);
+    font-size: clamp(2rem, 8vw, 7rem);
     color: $negro;
+    letter-spacing: 1px;
+    border-top: 1px solid;
 }
 
 .logo:hover{
     color: rgb(95, 93, 93);
     transition: 0.3s all ease-in-out;
-    transform: scale(1.01);
+    transform: scale(0.99);
     transition: all 0.2s ease-in-out;
 }
 

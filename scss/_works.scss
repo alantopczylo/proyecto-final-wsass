@@ -13,7 +13,7 @@
     grid-template-columns: repeat(auto-fit, minmax(20rem,32rem));
     grid-template-columns: 32rem 32rem 32rem; 
     grid-template-rows: auto;
-    column-gap: 5rem;
+    column-gap: 10rem;
     row-gap: 2rem;
     padding-bottom: 2rem;  
 }
@@ -63,7 +63,6 @@
     background-size: cover;
     height: $heightCard;
     transition: all 0.4s ease-out;
-    border-radius: 60px 0px 60px 0px;
 }
 
 .card-property{
@@ -127,7 +126,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:1% 0;
+    margin:3.5% 0;
     font-size: 2rem;
 }
 
