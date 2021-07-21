@@ -31,14 +31,22 @@
     color: $negro;
     text-transform:uppercase;
     font-weight: 500;
-    margin: 0 1.5rem;
-    padding: 0 1rem;
+    padding: 0;
     position: relative;
     font-family: "KenokyLight";
     font-size: clamp(1rem, 3vw, 2.6rem);
     letter-spacing: 0.3rem;   
 }
 
+.nav-item:last-child{
+    margin: 0 0 0 1.5rem;
+    padding: 0 0 0 1rem;
+}
+
+.nav-item:not(:last-child){
+    margin: 0 1.5rem;
+    padding: 0 1rem;
+}
 
 
 /*FX*/
