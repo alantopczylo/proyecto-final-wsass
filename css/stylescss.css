@@ -31,8 +31,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   min-height: 100vh;
-  width: 100%;
-  background-color: #fff8f8; }
+  width: 100%; }
 
 .container-fluid {
   width: 100%;
@@ -82,12 +81,12 @@ body {
 
 /*FX*/
 .nav-link:hover {
-  color: #212529;
+  color: #111111;
   transition: all 0.3s ease-in-out; }
 
 .nav-link::before {
   content: "";
-  background-color: #212529;
+  background-color: #111111;
   width: calc(100% - 2rem);
   height: .2rem;
   position: absolute;
@@ -115,20 +114,19 @@ body {
 
 .logo {
   text-decoration: none;
-  color: #212529;
+  color: #111111;
   text-transform: uppercase;
   margin: 0;
   padding: 0;
   font-weight: 600;
   font-family: "Bigilla";
   font-size: clamp(2rem, 8vw, 7rem);
-  color: #212529;
+  color: #111111;
   letter-spacing: 1px;
   border-top: 1px solid; }
 
 .logo:hover {
-  color: #5f5d5d;
-  transition: 0.3s all ease-in-out;
+  color: #111111;
   transform: scale(0.99);
   transition: all 0.2s ease-in-out; }
 
@@ -183,7 +181,7 @@ body {
   text-decoration: none;
   font-size: clamp(2rem, 10vw, 10rem);
   text-transform: uppercase;
-  color: #212529;
+  color: #111111;
   font-family: "KenokyLight"; }
 
 .contact--footer a:hover {
@@ -203,7 +201,7 @@ body {
   margin: 1rem 0; }
   .social-prop a {
     font-size: clamp(1rem, 4vw, 2.5rem);
-    color: #212529;
+    color: #111111;
     margin: 0 1rem 0 1rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -222,16 +220,16 @@ body {
 .copyright {
   text-transform: uppercase;
   font-size: clamp(0.5rem, 3vw, 1.2rem);
-  color: #212529;
+  color: #111111;
   font-weight: 500; }
 
 .web-developer {
   text-transform: uppercase;
-  color: #212529;
+  color: #111111;
   font-size: clamp(0.5rem, 3vw, 1.2rem);
   font-weight: 500; }
   .web-developer a:hover {
-    color: #212529;
+    color: #111111;
     transition: all 0.3s ease-in-out; }
 
 .name-developer {
@@ -244,7 +242,7 @@ body {
   font-size: clamp(3rem, 6vw, 5rem);
   right: 0;
   top: 4rem;
-  color: #212529;
+  color: #111111;
   scroll-behavior: smooth; }
 
 .fa-long-arrow-alt-up:hover {
@@ -272,7 +270,7 @@ body {
 .section h1 {
   font-family: "KenokyLight";
   font-size: clamp(2rem, 4.5vw, 40rem);
-  color: #212529;
+  color: #111111;
   text-transform: uppercase;
   text-align: right; }
 
@@ -280,14 +278,14 @@ body {
   font-size: clamp(2rem, 4.5vw, 40rem);
   text-align: right;
   font-family: "KenokyLight";
-  color: #212529;
+  color: #111111;
   text-transform: uppercase; }
 
 .section h5 {
   font-size: clamp(2rem, 4.5vw, 40rem);
   text-align: right;
   font-family: "KenokyLight";
-  color: #212529;
+  color: #111111;
   text-transform: uppercase; }
 
 .carousel {
@@ -327,27 +325,27 @@ body {
   font-size: clamp(6rem, 7vw, 6rem); }
 
 .main-img1 {
-  width: clamp(300px, 50vw, 600px);
+  width: clamp(300px, 50vw, 550px);
   padding: clamp(1rem, 5vw, 3rem);
   padding-left: 0; }
 
 .main-img2 {
-  width: clamp(300px, 50vw, 500px);
+  width: clamp(300px, 50vw, 450px);
   padding: clamp(1rem, 5vw, 3rem);
   padding-right: 0; }
 
 .main-img3 {
-  width: clamp(300px, 50vw, 450px);
+  width: clamp(300px, 50vw, 400px);
   padding: clamp(1rem, 5vw, 3rem);
   padding-left: 0; }
 
 .main-img4 {
-  width: clamp(300px, 50vw, 600px);
+  width: clamp(300px, 50vw, 550px);
   padding: clamp(1rem, 5vw, 3rem);
   padding-right: 0; }
 
 .main-img5 {
-  width: clamp(300px, 50vw, 600px);
+  width: clamp(300px, 50vw, 550px);
   padding: clamp(1rem, 5vw, 3rem);
   padding-left: 0; }
 
@@ -357,17 +355,17 @@ body {
   padding-right: 0; }
 
 .main-img7 {
-  width: clamp(300px, 50vw, 450px);
+  width: clamp(300px, 50vw, 400px);
   padding: clamp(1rem, 5vw, 3rem);
   padding-left: 0; }
 
 .main-img8 {
-  width: clamp(300px, 50vw, 600px);
+  width: clamp(300px, 50vw, 550px);
   padding: clamp(1rem, 5vw, 3rem);
   padding-right: 0; }
 
 .main-img9 {
-  width: clamp(300px, 50vw, 600px);
+  width: clamp(300px, 50vw, 550px);
   padding: clamp(1rem, 5vw, 3rem);
   padding-left: 0; }
 
@@ -377,12 +375,12 @@ body {
   padding-right: 0; }
 
 .main-img11 {
-  width: clamp(300px, 30vw, 550px);
+  width: clamp(300px, 30vw, 500px);
   padding: clamp(1rem, 5vw, 3rem);
   padding-left: 0; }
 
 .main-img12 {
-  width: clamp(300px, 30vw, 600px);
+  width: clamp(300px, 30vw, 550px);
   padding: clamp(1rem, 5vw, 3rem);
   padding-right: 0; }
 
@@ -391,10 +389,10 @@ body {
   text-align: right;
   width: auto;
   text-decoration: none;
-  color: #212529;
-  font-size: 10rem;
+  color: #111111;
+  font-size: clamp(5rem, 6vw, 10rem);
   position: absolute;
-  left: 28%;
+  left: 25%;
   z-index: 2; }
 
 .main-text--sup {
@@ -402,7 +400,7 @@ body {
   text-align: right;
   width: auto;
   text-decoration: none;
-  color: #212529;
+  color: #111111;
   font-size: 10rem;
   position: absolute;
   left: 28%;
@@ -414,13 +412,13 @@ body {
 
 .main-text2 {
   font-family: "KenokyLight";
-  font-size: 10rem;
+  font-size: clamp(5rem, 6vw, 10rem);
   text-align: left;
   width: auto;
   text-decoration: none;
-  color: #212529;
+  color: #111111;
   position: absolute;
-  right: 28%;
+  right: 25%;
   z-index: 1; }
 
 .main-text2:hover {
@@ -429,12 +427,12 @@ body {
 
 .main-text3 {
   font-family: "KenokyLight";
-  font-size: 10rem;
+  font-size: clamp(5rem, 6vw, 10rem);
   width: auto;
   text-decoration: none;
-  color: #212529;
+  color: #111111;
   position: absolute;
-  left: 28%;
+  left: 25%;
   z-index: 1; }
 
 .main-text3:hover {
@@ -443,13 +441,13 @@ body {
 
 .main-text4 {
   font-family: "KenokyLight";
-  font-size: 10rem;
+  font-size: clamp(5rem, 6vw, 10rem);
   text-align: left;
   width: auto;
   text-decoration: none;
-  color: #212529;
+  color: #111111;
   position: absolute;
-  right: 28%;
+  right: 25%;
   z-index: 1; }
 
 .main-text4:hover {
@@ -458,12 +456,12 @@ body {
 
 .main-text5 {
   font-family: "KenokyLight";
-  font-size: 10rem;
+  font-size: clamp(5rem, 6vw, 10rem);
   text-align: right;
   text-decoration: none;
-  color: #212529;
+  color: #111111;
   position: absolute;
-  left: 28%;
+  left: 25%;
   z-index: 1; }
 
 .main-text5:hover {
@@ -472,13 +470,13 @@ body {
 
 .main-text6 {
   font-family: "KenokyLight";
-  font-size: 10rem;
+  font-size: clamp(5rem, 6vw, 10rem);
   text-align: left;
   width: auto;
   text-decoration: none;
-  color: #212529;
+  color: #111111;
   position: absolute;
-  right: 28%;
+  right: 25%;
   z-index: 1; }
 
 .main-text6:hover {
@@ -487,7 +485,7 @@ body {
 
 .breath {
   font-family: "Playfair Display", serif;
-  color: #212529; }
+  color: #111111; }
 
 .section h3 {
   font-size: clamp(3rem, 6vw, 15rem); }
@@ -552,7 +550,7 @@ h2.animate__animated.animate__fadeInLeft {
 
 .card-title-large {
   font-size: clamp(1rem, 2.5rem, 4rem);
-  color: #212529;
+  color: #111111;
   text-transform: uppercase;
   font-family: "KenokyLight";
   font-weight: 00;
@@ -571,7 +569,7 @@ h2.animate__animated.animate__fadeInLeft {
   font-weight: 400; }
 
 .card-title-small:hover {
-  color: #212529;
+  color: #111111;
   transition: all 0.4s ease-in-out; }
 
 .card-property, .street, .campaign, .lookbook, .social-content, .product {
@@ -625,7 +623,7 @@ h2.animate__animated.animate__fadeInLeft {
   font-size: 2rem; }
 
 .breadcrumb-item a {
-  color: #212529;
+  color: #111111;
   text-decoration: none; }
 
 /*Fin works section*/
@@ -695,7 +693,7 @@ h2.animate__animated.animate__fadeInLeft {
   width: 100%;
   background-color: transparent; }
   .section-contact h1 {
-    color: #212529;
+    color: #111111;
     z-index: 1;
     justify-content: center;
     align-items: center;
@@ -708,21 +706,22 @@ h2.animate__animated.animate__fadeInLeft {
   margin: 0; }
 
 .contact-section {
-  margin-bottom: clamp(10px, 4vw, 20px);
+  margin-bottom: clamp(10px, 10vw, 4rem);
+  margin-top: clamp(10px, 10vw, 4rem);
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: transparent;
-  height: 75vh;
+  height: auto;
   width: 100%; }
 
 .input-cont {
   background-color: transparent;
-  color: #212529;
+  color: #111111;
   outline: none; }
 
 label, input {
-  color: #212529;
+  color: #111111;
   outline: none; }
 
 .message {
@@ -746,7 +745,7 @@ form .form-row {
       bottom: 0;
       height: 2px;
       width: 100%;
-      background: #212529; }
+      background: #111111; }
   form .form-row .textarea {
     height: 70px; }
     form .form-row .textarea textarea {
@@ -755,7 +754,7 @@ form .form-row {
     form .form-row .textarea label {
       width: 100%;
       bottom: 40px;
-      background-color: #212529; }
+      background-color: #111111; }
 
 .input-data input,
 .textarea textarea {
@@ -774,7 +773,7 @@ form .form-row {
     width: 300%;
     position: absolute;
     left: -100;
-    background: #212529; }
+    background: #111111; }
   .submit-btn .input-data input {
     position: relative;
     z-index: 1;
@@ -789,7 +788,7 @@ form .form-row {
   transition: all 0.2s ease-in-out; }
 
 .contact-info {
-  color: #212529;
+  color: #111111;
   display: flex;
   text-align: center;
   justify-content: center; }
@@ -877,34 +876,34 @@ form .form-row {
     display: none; }
   .main-text {
     position: relative;
-    font-size: 4.5rem;
+    font-size: clamp(2rem, 20vw, 4.5rem);
     left: 0;
     margin: 0; }
     .main-text p {
       margin: 0; }
   .main-text2 {
     position: relative;
-    font-size: 4.5rem;
+    font-size: clamp(2rem, 20vw, 4.5rem);
     right: 0;
     margin: 0; }
   .main-text3 {
     position: relative;
-    font-size: 4.5rem;
+    font-size: clamp(2rem, 20vw, 4.5rem);
     left: 0;
     margin: 0; }
   .main-text4 {
     position: relative;
-    font-size: 4.5rem;
+    font-size: clamp(2rem, 20vw, 4.5rem);
     right: 0;
     margin: 0; }
   .main-text5 {
     position: relative;
-    font-size: 4.5rem;
+    font-size: clamp(2rem, 20vw, 4.5rem);
     left: 0;
     margin: 0; }
   .main-text6 {
     position: relative;
-    font-size: 4.5rem;
+    font-size: clamp(2rem, 20vw, 4.5rem);
     right: 0;
     margin-bottom: 8rem; }
   .logo {
@@ -969,7 +968,7 @@ form .form-row {
   /*Header*/
   .hamburger-menu {
     font-size: 2.6rem;
-    color: #212529;
+    color: #111111;
     cursor: pointer;
     position: relative;
     z-index: 1500;
@@ -1074,34 +1073,34 @@ form .form-row {
     display: none; }
   .main-text {
     position: relative;
-    font-size: 4.5rem;
+    font-size: clamp(2rem, 20vw, 4.5rem);
     left: 0;
     margin: 0; }
     .main-text p {
       margin: 0; }
   .main-text2 {
     position: relative;
-    font-size: 4.5rem;
+    font-size: clamp(2rem, 20vw, 4.5rem);
     right: 0;
     margin: 0; }
   .main-text3 {
     position: relative;
-    font-size: 4.5rem;
+    font-size: clamp(2rem, 20vw, 4.5rem);
     left: 0;
     margin: 0; }
   .main-text4 {
     position: relative;
-    font-size: 4.5rem;
+    font-size: clamp(2rem, 20vw, 4.5rem);
     right: 0;
     margin: 0; }
   .main-text5 {
     position: relative;
-    font-size: 4.5rem;
+    font-size: clamp(2rem, 20vw, 4.5rem);
     left: 0;
     margin: 0; }
   .main-text6 {
     position: relative;
-    font-size: 4.5rem;
+    font-size: clamp(2rem, 20vw, 4.5rem);
     right: 0; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1400px) {
@@ -1173,34 +1172,34 @@ form .form-row {
     display: none; }
   .main-text {
     position: relative;
-    font-size: 8rem;
+    font-size: clamp(2rem, 20vw, 8rem);
     left: 0;
     margin: 0; }
     .main-text p {
       margin: 0; }
   .main-text2 {
     position: relative;
-    font-size: 8rem;
+    font-size: clamp(2rem, 20vw, 8rem);
     right: 0;
     margin: 0; }
   .main-text3 {
     position: relative;
-    font-size: 8rem;
+    font-size: clamp(2rem, 20vw, 8rem);
     left: 0;
     margin: 0; }
   .main-text4 {
     position: relative;
-    font-size: 8rem;
+    font-size: clamp(2rem, 20vw, 8rem);
     right: 0;
     margin: 0; }
   .main-text5 {
     position: relative;
-    font-size: 8rem;
+    font-size: clamp(2rem, 20vw, 8rem);
     left: 0;
     margin: 0; }
   .main-text6 {
     position: relative;
-    font-size: 8rem;
+    font-size: clamp(2rem, 20vw, 8rem);
     right: 0; }
   /*Fin main section*/
   /*Fin hero section*/
@@ -1239,7 +1238,7 @@ form .form-row {
     width: clamp(400px, 40vw, 650px); }
   /*Fin about section*/
   .logo {
-    font-size: clamp(2rem, 8vw, 4.4rem); } }
+    font-size: clamp(2rem, 8vw, 4.3rem); } }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
   .hero-section {

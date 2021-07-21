@@ -21,13 +21,15 @@
 }
 
 .contact-section{
-    margin-bottom: clamp(10px, 4vw, 20px);
+    margin-bottom: clamp(10px, 10vw, 4rem);
+    margin-top: clamp(10px, 10vw, 4rem);
     display: flex;
     justify-content:center;
     align-items:center;
     background-color: transparent;
-    height: 75vh;
+    height: auto;
     width: 100%;
+    
 }
 
 .input-cont{
