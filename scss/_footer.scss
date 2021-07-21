@@ -28,13 +28,13 @@
 
 .workwme-text::before{
     content: "";
-    background-color: #161616;
+    background-color: #111;
     width: calc(100% + 2rem);
     height: .4rem;
     position: absolute;
     top: 55%;
     left: 50%;
-    transition: transform .3s ease-in-out ;
+    transition: transform .4s ease-in-out ;
     transform: translate(-50%, -50%) scaleX(0);
 }
 
@@ -57,7 +57,7 @@
     }
 
     a:hover{
-        color:  rgb(95, 93, 93);
+        color:  rgb(43, 43, 43);
         transition: all 0.3s ease-in-out;
     }
 }

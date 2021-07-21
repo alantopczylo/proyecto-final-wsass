@@ -28,26 +28,22 @@
 
 .nav-link{
     text-decoration: none;
-    color: rgb(95, 93, 93);;
+    color: $negro;
     text-transform:uppercase;
     font-weight: 500;
     margin: 0 1.5rem;
     padding: 0 1rem;
     position: relative;
-    font-family: $fuentePrincipal;
-    font-size: clamp(1rem, 3vw, 1.8rem);
-    letter-spacing: 0.3rem;
-    
+    font-family: "KenokyLight";
+    font-size: clamp(1rem, 3vw, 2.6rem);
+    letter-spacing: 0.3rem;   
 }
 
-.nav-list:nth-last-child{
-    margin: 0;
-    padding: 0;
-}
+
 
 /*FX*/
 .nav-link:hover{
-    color: $negro;
+    color: rgb(29, 29, 29);
     transition: all 0.3s ease-in-out;   
 }
 
@@ -59,7 +55,8 @@
     position: absolute;
     top: 100%;
     left: 50%;
-    transition: transform 0.2s linear;
+    transform-origin: left;
+    transition: transform 0.4s linear;
     transform: translate(-50%, -50%) scaleX(0);
 }
 

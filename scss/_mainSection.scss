@@ -41,7 +41,7 @@
 .main-img1{
     width: clamp(300px, 50vw, 550px);
     padding: clamp(1rem, 5vw, 3rem); 
-    padding-left: 0; 
+    padding-left: 0;
 }
 
 .main-img2{
@@ -119,25 +119,27 @@
     font-size: clamp(5rem, 6vw, 10rem);
     position: absolute;
     left:25%;
-    z-index: 2;
 }
-
-.main-text--sup{
-    font-family: "KenokyLight";
-    text-align: right;
-    width: auto;
-    text-decoration: none;
-    color: $negro; 
-    font-size: 10rem;
-    position: absolute;
-    left:28%;
-    z-index: 1;   
-}
-
 
 .main-text:hover{
-    color: gray;
-    transition: all 0.2s ease-in-out;
+    color: $negro;
+}
+
+.main-text::before{
+    content: "";
+    background-color: $negro;
+    width: calc(100% - 2rem);
+    height: .2rem;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform-origin: left;
+    transition: transform 0.4s linear;
+    transform: translate(-50%, -50%) scaleX(0);
+}
+
+.main-text:hover::before{
+    transform: translate(-50%, -50%) scaleX(1);
 }
 
 .main-text2{
@@ -153,8 +155,24 @@
 }
 
 .main-text2:hover{
-    color: gray;
-    transition: all 0.2s ease-in-out;
+    color: $negro;
+}
+
+.main-text2::before{
+    content: "";
+    background-color: $negro;
+    width: calc(100% - 2rem);
+    height: .2rem;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform-origin: left;
+    transition: transform 0.4s linear;
+    transform: translate(-50%, -50%) scaleX(0);
+}
+
+.main-text2:hover::before{
+    transform: translate(-50%, -50%) scaleX(1);
 }
 
 .main-text3{
@@ -169,8 +187,24 @@
 }
 
 .main-text3:hover{
-    color: gray;
-    transition: all 0.2s ease-in-out;
+    color: $negro;
+}
+
+.main-text3::before{
+    content: "";
+    background-color: $negro;
+    width: calc(100% - 2rem);
+    height: .2rem;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform-origin: left;
+    transition: transform 0.4s linear;
+    transform: translate(-50%, -50%) scaleX(0);
+}
+
+.main-text3:hover::before{
+    transform: translate(-50%, -50%) scaleX(1);
 }
 
 .main-text4{
@@ -186,8 +220,24 @@
 }
 
 .main-text4:hover{
-    color: gray;
-    transition: all 0.2s ease-in-out;
+    color: $negro;
+}
+
+.main-text4::before{
+    content: "";
+    background-color: $negro;
+    width: calc(100% - 2rem);
+    height: .2rem;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform-origin: left;
+    transition: transform 0.4s linear;
+    transform: translate(-50%, -50%) scaleX(0);
+}
+
+.main-text4:hover::before{
+    transform: translate(-50%, -50%) scaleX(1);
 }
 
 .main-text5{
@@ -202,8 +252,24 @@
 }
 
 .main-text5:hover{
-    color: gray;
-    transition: all 0.2s ease-in-out;
+    color: $negro;
+}
+
+.main-text5::before{
+    content: "";
+    background-color: $negro;
+    width: calc(100% - 2rem);
+    height: .2rem;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform-origin: left;
+    transition: transform 0.4s linear;
+    transform: translate(-50%, -50%) scaleX(0);
+}
+
+.main-text5:hover::before{
+    transform: translate(-50%, -50%) scaleX(1);
 }
 
 .main-text6{
@@ -219,8 +285,24 @@
 }
 
 .main-text6:hover{
-    color: gray;
-    transition: all 0.2s ease-in-out;
+    color: $negro;
+}
+
+.main-text6::before{
+    content: "";
+    background-color: $negro;
+    width: calc(100% - 2rem);
+    height: .2rem;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform-origin: left;
+    transition: transform 0.4s linear;
+    transform: translate(-50%, -50%) scaleX(0);
+}
+
+.main-text6:hover::before{
+    transform: translate(-50%, -50%) scaleX(1);
 }
 
 .breath{

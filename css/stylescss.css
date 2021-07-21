@@ -65,23 +65,19 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: #5f5d5d;
+  color: #111111;
   text-transform: uppercase;
   font-weight: 500;
   margin: 0 1.5rem;
   padding: 0 1rem;
   position: relative;
-  font-family: "Montserrat", sans-serif;
-  font-size: clamp(1rem, 3vw, 1.8rem);
+  font-family: "KenokyLight";
+  font-size: clamp(1rem, 3vw, 2.6rem);
   letter-spacing: 0.3rem; }
-
-.nav-list:nth-last-child {
-  margin: 0;
-  padding: 0; }
 
 /*FX*/
 .nav-link:hover {
-  color: #111111;
+  color: #1d1d1d;
   transition: all 0.3s ease-in-out; }
 
 .nav-link::before {
@@ -92,7 +88,8 @@ body {
   position: absolute;
   top: 100%;
   left: 50%;
-  transition: transform 0.2s linear;
+  transform-origin: left;
+  transition: transform 0.4s linear;
   transform: translate(-50%, -50%) scaleX(0); }
 
 .nav-link:hover::before {
@@ -161,13 +158,13 @@ body {
 
 .workwme-text::before {
   content: "";
-  background-color: #161616;
+  background-color: #111;
   width: calc(100% + 2rem);
   height: .4rem;
   position: absolute;
   top: 55%;
   left: 50%;
-  transition: transform .3s ease-in-out;
+  transition: transform .4s ease-in-out;
   transform: translate(-50%, -50%) scaleX(0); }
 
 .workwme-text:hover::before {
@@ -185,7 +182,7 @@ body {
   font-family: "KenokyLight"; }
 
 .contact--footer a:hover {
-  color: #5f5d5d;
+  color: #2b2b2b;
   transition: all 0.3s ease-in-out; }
 
 .followme {
@@ -269,20 +266,20 @@ body {
 /*Hero section*/
 .section h1 {
   font-family: "KenokyLight";
-  font-size: clamp(2rem, 4.5vw, 40rem);
+  font-size: clamp(2rem, 5vw, 40rem);
   color: #111111;
   text-transform: uppercase;
   text-align: right; }
 
 .section h2 {
-  font-size: clamp(2rem, 4.5vw, 40rem);
+  font-size: clamp(2rem, 5vw, 40rem);
   text-align: right;
   font-family: "KenokyLight";
   color: #111111;
   text-transform: uppercase; }
 
 .section h5 {
-  font-size: clamp(2rem, 4.5vw, 40rem);
+  font-size: clamp(2rem, 5vw, 40rem);
   text-align: right;
   font-family: "KenokyLight";
   color: #111111;
@@ -392,23 +389,25 @@ body {
   color: #111111;
   font-size: clamp(5rem, 6vw, 10rem);
   position: absolute;
-  left: 25%;
-  z-index: 2; }
-
-.main-text--sup {
-  font-family: "KenokyLight";
-  text-align: right;
-  width: auto;
-  text-decoration: none;
-  color: #111111;
-  font-size: 10rem;
-  position: absolute;
-  left: 28%;
-  z-index: 1; }
+  left: 25%; }
 
 .main-text:hover {
-  color: gray;
-  transition: all 0.2s ease-in-out; }
+  color: #111111; }
+
+.main-text::before {
+  content: "";
+  background-color: #111111;
+  width: calc(100% - 2rem);
+  height: .2rem;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform-origin: left;
+  transition: transform 0.4s linear;
+  transform: translate(-50%, -50%) scaleX(0); }
+
+.main-text:hover::before {
+  transform: translate(-50%, -50%) scaleX(1); }
 
 .main-text2 {
   font-family: "KenokyLight";
@@ -422,8 +421,22 @@ body {
   z-index: 1; }
 
 .main-text2:hover {
-  color: gray;
-  transition: all 0.2s ease-in-out; }
+  color: #111111; }
+
+.main-text2::before {
+  content: "";
+  background-color: #111111;
+  width: calc(100% - 2rem);
+  height: .2rem;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform-origin: left;
+  transition: transform 0.4s linear;
+  transform: translate(-50%, -50%) scaleX(0); }
+
+.main-text2:hover::before {
+  transform: translate(-50%, -50%) scaleX(1); }
 
 .main-text3 {
   font-family: "KenokyLight";
@@ -436,8 +449,22 @@ body {
   z-index: 1; }
 
 .main-text3:hover {
-  color: gray;
-  transition: all 0.2s ease-in-out; }
+  color: #111111; }
+
+.main-text3::before {
+  content: "";
+  background-color: #111111;
+  width: calc(100% - 2rem);
+  height: .2rem;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform-origin: left;
+  transition: transform 0.4s linear;
+  transform: translate(-50%, -50%) scaleX(0); }
+
+.main-text3:hover::before {
+  transform: translate(-50%, -50%) scaleX(1); }
 
 .main-text4 {
   font-family: "KenokyLight";
@@ -451,8 +478,22 @@ body {
   z-index: 1; }
 
 .main-text4:hover {
-  color: gray;
-  transition: all 0.2s ease-in-out; }
+  color: #111111; }
+
+.main-text4::before {
+  content: "";
+  background-color: #111111;
+  width: calc(100% - 2rem);
+  height: .2rem;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform-origin: left;
+  transition: transform 0.4s linear;
+  transform: translate(-50%, -50%) scaleX(0); }
+
+.main-text4:hover::before {
+  transform: translate(-50%, -50%) scaleX(1); }
 
 .main-text5 {
   font-family: "KenokyLight";
@@ -465,8 +506,22 @@ body {
   z-index: 1; }
 
 .main-text5:hover {
-  color: gray;
-  transition: all 0.2s ease-in-out; }
+  color: #111111; }
+
+.main-text5::before {
+  content: "";
+  background-color: #111111;
+  width: calc(100% - 2rem);
+  height: .2rem;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform-origin: left;
+  transition: transform 0.4s linear;
+  transform: translate(-50%, -50%) scaleX(0); }
+
+.main-text5:hover::before {
+  transform: translate(-50%, -50%) scaleX(1); }
 
 .main-text6 {
   font-family: "KenokyLight";
@@ -480,8 +535,22 @@ body {
   z-index: 1; }
 
 .main-text6:hover {
-  color: gray;
-  transition: all 0.2s ease-in-out; }
+  color: #111111; }
+
+.main-text6::before {
+  content: "";
+  background-color: #111111;
+  width: calc(100% - 2rem);
+  height: .2rem;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform-origin: left;
+  transition: transform 0.4s linear;
+  transform: translate(-50%, -50%) scaleX(0); }
+
+.main-text6:hover::before {
+  transform: translate(-50%, -50%) scaleX(1); }
 
 .breath {
   font-family: "Playfair Display", serif;
@@ -1104,6 +1173,10 @@ form .form-row {
     right: 0; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1400px) {
+  .fa-bars {
+    font-size: 4rem; }
+  .fa-times {
+    font-size: 4rem; }
   .cards {
     grid-template-columns: 32rem 32rem; }
   /*Sections*/
@@ -1112,7 +1185,7 @@ form .form-row {
   .logo {
     font-size: clamp(2rem, 5vw, 3.5rem); }
   .nav-link {
-    font-size: clamp(1.5rem, 1.5vw, 3.5rem); }
+    font-size: clamp(1.5rem, 5vw, 3.3rem); }
   /*Hero section*/
   .section h1 {
     font-size: clamp(2rem, 10vw, 40rem);
@@ -1238,7 +1311,7 @@ form .form-row {
     width: clamp(400px, 40vw, 650px); }
   /*Fin about section*/
   .logo {
-    font-size: clamp(2rem, 8vw, 4.3rem); } }
+    font-size: clamp(2rem, 8vw, 6rem); } }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
   .hero-section {
@@ -1247,16 +1320,16 @@ form .form-row {
     font-size: clamp(2rem, 7vw, 40rem);
     padding-left: 0;
     margin: 0;
-    text-align: center; }
+    text-align: right; }
   .section h2 {
     font-size: clamp(2rem, 7vw, 40rem);
     padding-left: 0;
-    text-align: center;
+    text-align: right;
     margin: 0; }
   .section h5 {
     font-size: clamp(2rem, 7vw, 40rem);
     padding-left: 0;
-    text-align: center;
+    text-align: right;
     margin: 0; }
   .carousel {
     width: 620px; }

@@ -17,14 +17,14 @@
 .section{
     h1{
         font-family: "KenokyLight";
-        font-size: clamp(2rem, 4.5vw, 40rem); 
+        font-size: clamp(2rem, 5vw, 40rem); 
         color:$negro;
         text-transform: uppercase;
         text-align: right;
     }
 
     h2{
-        font-size: clamp(2rem, 4.5vw, 40rem); 
+        font-size: clamp(2rem, 5vw, 40rem); 
         text-align: right;
         font-family: "KenokyLight";
         color: $negro;
@@ -32,7 +32,7 @@
     }
 
     h5{
-        font-size: clamp(2rem, 4.5vw, 40rem); 
+        font-size: clamp(2rem, 5vw, 40rem); 
         text-align: right;
         font-family: "KenokyLight";
         color: $negro;
