@@ -148,9 +148,14 @@
 
 .fancybox{
     height: auto;
+    .img-gallery{
+        object-fit: cover;
+    }
 }
 
 .row{
     margin-bottom: 5rem;
 }
+
+
 /*Fin image gallery works*/
