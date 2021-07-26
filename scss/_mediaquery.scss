@@ -180,6 +180,7 @@
     }
     /*Fin main section*/
     /*Fin hero section*/
+   
 }
 
 @media only screen and (max-width: 768px) {
@@ -261,6 +262,21 @@
         grid-template-columns: repeat(auto-fit, minmax(20rem, 32rem)); 
         column-gap: 1rem;
     }
+
+    /*Inicio backstage*/
+    .section3{
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .fixed-backstage-text{
+        writing-mode:unset;
+        transform: none;
+        position:relative;
+        text-align: center;
+        font-size: clamp(2.5rem, 5vw, 10rem);
+    }
+    /*Fin backstage*/
 }
 
 @media only screen and (max-width: 992px) {
@@ -446,7 +462,7 @@
 
     .main-text{
         position: relative;
-        font-size: clamp(2rem, 20vw, 4.5rem);
+        font-size: clamp(2rem, 12vw, 4.5rem);
         left: 0;
         margin: 0;
         p{
@@ -456,36 +472,59 @@
 
     .main-text2{
         position: relative;
-        font-size: clamp(2rem, 20vw, 4.5rem);
+        font-size: clamp(2rem, 12vw, 4.5rem);
         right: 0;
         margin: 0;
     }
 
     .main-text3{
         position: relative;
-        font-size: clamp(2rem, 20vw, 4.5rem);
+        font-size: clamp(2rem, 12vw, 4.5rem);
         left: 0;
         margin: 0;
     }
 
     .main-text4{
         position: relative;
-        font-size: clamp(2rem, 20vw, 4.5rem);
+        font-size: clamp(2rem, 12vw, 4.5rem);
         right: 0;
         margin: 0;
     }
 
     .main-text5{
         position: relative;
-        font-size: clamp(2rem, 20vw, 4.5rem);
+        font-size: clamp(2rem, 12vw, 4.5rem);
         left: 0;
         margin: 0;
     }
 
     .main-text6{
         position: relative;
-        font-size: clamp(2rem, 20vw, 4.5rem);
+        font-size: clamp(2rem, 12vw, 4.5rem);
         right: 0;
+    }
+
+    /*Inicio backstage*/
+    .section3{
+        margin-top: 4rem;
+    }
+
+    .fixed-backstage-text{
+        writing-mode:unset;
+        transform: none;
+        position:relative;
+        text-align: center;
+        font-size: clamp(2.5rem, 5vw, 10rem); 
+        color: $negro;
+        mix-blend-mode:normal;
+    }
+    /*Fin backstage*/
+
+    .nav-link::before{
+        top: 80%;
+        left: 50%;
+        width: calc(100% - 3rem);
+       
     }
 }
 
@@ -513,7 +552,7 @@
     }
 
     .nav-link{
-        font-size: clamp(1.5rem, 5vw, 3.3rem) ;
+        font-size: clamp(1.5rem, 2.5vw, 3.3rem) ;
     }
 
     /*Hero section*/
@@ -613,7 +652,7 @@
 
     .main-text{
         position: relative;
-        font-size: clamp(2rem, 20vw, 8rem);
+        font-size: clamp(2rem, 9vw, 8rem);
         left: 0;
         margin: 0;
         p{
@@ -623,35 +662,35 @@
 
     .main-text2{
         position: relative;
-        font-size: clamp(2rem, 20vw, 8rem);
+        font-size: clamp(2rem, 9vw, 8rem);
         right: 0;
         margin: 0;
     }
 
     .main-text3{
         position: relative;
-        font-size: clamp(2rem, 20vw, 8rem);
+        font-size: clamp(2rem, 9vw, 8rem);
         left: 0;
         margin: 0;
     }
 
     .main-text4{
         position: relative;
-        font-size: clamp(2rem, 20vw, 8rem);
+        font-size: clamp(2rem, 9vw, 8rem);
         right: 0;
         margin: 0;
     }
 
     .main-text5{
         position: relative;
-        font-size: clamp(2rem, 20vw, 8rem);
+        font-size: clamp(2rem, 9vw, 8rem);
         left: 0;
         margin: 0;
     }
 
     .main-text6{
         position: relative;
-        font-size: clamp(2rem, 20vw, 8rem);
+        font-size: clamp(2rem, 9vw, 8rem);
         right: 0;
     }
 
@@ -671,6 +710,25 @@
     .logo{
         font-size: clamp(2rem, 8vw, 6rem);
     }
+
+    /*Inicio backstage*/
+    .section3{
+        margin-top: 4rem;
+    }
+
+    .fixed-backstage-text{
+        writing-mode:unset;
+        transform: none;
+        position:relative;
+        text-align: center;
+        font-size: clamp(2.5rem, 5vw, 10rem); 
+        margin-top: 5rem;
+    }
+
+    .main-text-backstage{
+        font-size: clamp(2.5rem, 4.5vw, 10rem);
+    }
+    /*Fin backstage*/
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1400px){  
@@ -712,9 +770,7 @@
 
     .logo{
         font-size: clamp(2rem, 8vw, 6rem);
-    }
-
-   
+    }  
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px){
@@ -793,6 +849,26 @@
         width: clamp(400px, 40vw, 650px);
     }
     /*Fin about section*/   
+
+    /*Inicio backstage*/
+    .section3{
+        margin-top: 4rem;
+    }
+
+    .fixed-backstage-text{
+        writing-mode:unset;
+        transform: none;
+        position:relative;
+        text-align: center;
+        font-size: clamp(2.5rem, 4vw, 10rem); 
+        mix-blend-mode: normal;
+        margin-top: 5rem;
+    }
+
+    .main-text-backstage{
+        font-size: clamp(2.5rem, 4.5vw, 10rem);
+    }
+    /*Fin backstage*/
 }
 
 @media only screen and (min-width: 1401px) and (max-width: 1600px){

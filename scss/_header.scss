@@ -57,7 +57,7 @@
 .nav-link::before{
     content: "";
     background-color: $negro;
-    width: calc(100% - 2rem);
+    width: calc(100%);
     height: .2rem;
     position: absolute;
     top: 100%;

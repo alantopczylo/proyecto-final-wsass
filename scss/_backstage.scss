@@ -1,0 +1,105 @@
+/*Global sections*/
+.section3{
+    position: relative;
+    height: auto;
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    align-items: center;
+    overflow-x: hidden;
+    overflow: hidden;
+    border: 1px solid;    
+}
+/*Fin global sections*/
+
+/*Main section*/
+.main-col{
+    width: auto;
+}
+
+.main-section-backs{
+    margin-top: clamp(10px, 20vw, 10rem);
+    overflow-y: hidden;
+    margin-bottom: clamp(10px, 8vw, 6rem);
+}
+
+.main-section2{
+    background-color: transparent;
+    margin-top: clamp(10px, 20vw, 7rem);
+    margin-bottom: clamp(10px, 8vw, 6rem);
+    overflow-y: hidden;
+}
+
+.main-vid1{
+    width: clamp(300px, 50vw, 550px);
+    padding: clamp(1rem, 5vw, 3rem);
+}
+
+.main-vid2{
+    width: clamp(300px, 50vw, 550px);
+    padding: clamp(1rem, 5vw, 3rem); 
+}
+
+.main-vid3{
+    width: clamp(300px, 50vw, 550px);
+    padding: clamp(1rem, 5vw, 3rem); 
+}
+
+.main-vid4{
+    width: clamp(300px, 50vw, 500px);
+    padding: clamp(1rem, 5vw, 3rem); 
+}
+
+.main-img-back{
+    width: clamp(300px, 50vw, 450px);
+    padding: clamp(1rem, 5vw, 3rem);
+}
+
+.main-img-back2{
+    width: clamp(300px, 50vw, 400px);
+    padding: clamp(1rem, 5vw, 3rem);
+}
+
+.main-img-back3{
+    width: clamp(300px, 50vw, 300px); 
+    padding: clamp(1rem, 5vw, 3rem);
+}
+
+.main-img-back4{
+    width: clamp(300px, 50vw, 350px); 
+    padding: clamp(1rem, 5vw, 3rem);
+}
+
+.main-img-back5{
+    width: clamp(300px, 50vw, 500px);
+    padding: clamp(1rem, 5vw, 3rem);
+}
+
+.main-img-back6{
+    width: clamp(300px, 50vw, 400px);
+    padding: clamp(1rem, 5vw, 3rem);
+}
+
+.main-text-backstage{
+    font-family: "KenokyLight";
+    text-align: right;
+    width: auto;
+    text-decoration: none;
+    color: $negro; 
+    font-size: clamp(2.5rem, 3vw, 10rem);
+}
+
+.fixed-backstage-text{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: clamp(2.5rem, 3vw, 10rem); 
+    color: $negro;
+    text-transform: uppercase;
+    font-family: "KenokyLight"; 
+    letter-spacing: 3px;
+    position: fixed;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+}
+/*Fin main section*/

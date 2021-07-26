@@ -31,11 +31,14 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   min-height: 100vh;
-  width: 100%; }
+  width: 100%;
+  background-color: #e8e8e1;
+  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.5) 47%, rgba(0, 0, 0, 0.5) 100%);
+  background-blend-mode: screen; }
 
 .container-fluid {
   width: 100%;
-  max-width: 175rem; }
+  max-width: 185rem; }
 
 /*Fin resets*/
 /*Header*/
@@ -89,7 +92,7 @@ body {
 .nav-link::before {
   content: "";
   background-color: #111111;
-  width: calc(100% - 2rem);
+  width: calc(100%);
   height: .2rem;
   position: absolute;
   top: 100%;
@@ -143,7 +146,8 @@ body {
 /*Footer*/
 .sticky {
   position: sticky;
-  top: 100%; }
+  top: 100%;
+  width: 100%; }
 
 .footer {
   width: 100%;
@@ -720,6 +724,96 @@ h2.animate__animated.animate__fadeInLeft {
 /*Fin image gallery works*/
 /*-----Fin works-----*/
 /*-----Backstage*/
+/*Global sections*/
+.section3 {
+  position: relative;
+  height: auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  overflow-x: hidden;
+  overflow: hidden;
+  border: 1px solid; }
+
+/*Fin global sections*/
+/*Main section*/
+.main-col {
+  width: auto; }
+
+.main-section-backs {
+  margin-top: clamp(10px, 20vw, 10rem);
+  overflow-y: hidden;
+  margin-bottom: clamp(10px, 8vw, 6rem); }
+
+.main-section2 {
+  background-color: transparent;
+  margin-top: clamp(10px, 20vw, 7rem);
+  margin-bottom: clamp(10px, 8vw, 6rem);
+  overflow-y: hidden; }
+
+.main-vid1 {
+  width: clamp(300px, 50vw, 550px);
+  padding: clamp(1rem, 5vw, 3rem); }
+
+.main-vid2 {
+  width: clamp(300px, 50vw, 550px);
+  padding: clamp(1rem, 5vw, 3rem); }
+
+.main-vid3 {
+  width: clamp(300px, 50vw, 550px);
+  padding: clamp(1rem, 5vw, 3rem); }
+
+.main-vid4 {
+  width: clamp(300px, 50vw, 500px);
+  padding: clamp(1rem, 5vw, 3rem); }
+
+.main-img-back {
+  width: clamp(300px, 50vw, 450px);
+  padding: clamp(1rem, 5vw, 3rem); }
+
+.main-img-back2 {
+  width: clamp(300px, 50vw, 400px);
+  padding: clamp(1rem, 5vw, 3rem); }
+
+.main-img-back3 {
+  width: clamp(300px, 50vw, 300px);
+  padding: clamp(1rem, 5vw, 3rem); }
+
+.main-img-back4 {
+  width: clamp(300px, 50vw, 350px);
+  padding: clamp(1rem, 5vw, 3rem); }
+
+.main-img-back5 {
+  width: clamp(300px, 50vw, 500px);
+  padding: clamp(1rem, 5vw, 3rem); }
+
+.main-img-back6 {
+  width: clamp(300px, 50vw, 400px);
+  padding: clamp(1rem, 5vw, 3rem); }
+
+.main-text-backstage {
+  font-family: "KenokyLight";
+  text-align: right;
+  width: auto;
+  text-decoration: none;
+  color: #111111;
+  font-size: clamp(2.5rem, 3vw, 10rem); }
+
+.fixed-backstage-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: clamp(2.5rem, 3vw, 10rem);
+  color: #111111;
+  text-transform: uppercase;
+  font-family: "KenokyLight";
+  letter-spacing: 3px;
+  position: fixed;
+  z-index: -1;
+  margin: 0;
+  padding: 0; }
+
+/*Fin main section*/
 /*-----Fin backstage*/
 /*-----About-----*/
 .section--about {
@@ -775,7 +869,7 @@ h2.animate__animated.animate__fadeInLeft {
     justify-content: center;
     align-items: center;
     font-family: "KenokyLight";
-    font-size: clamp(2rem, 10vw, 10rem);
+    font-size: clamp(2rem, 10vw, 12rem);
     font-style: italic; }
 
 .contact {
@@ -1038,7 +1132,18 @@ form .form-row {
   /*Fin hero section*/
   .cards {
     grid-template-columns: repeat(auto-fit, minmax(20rem, 32rem));
-    column-gap: 1rem; } }
+    column-gap: 1rem; }
+  /*Inicio backstage*/
+  .section3 {
+    flex-direction: column;
+    margin-top: 4rem; }
+  .fixed-backstage-text {
+    writing-mode: unset;
+    transform: none;
+    position: relative;
+    text-align: center;
+    font-size: clamp(2.5rem, 5vw, 10rem); }
+  /*Fin backstage*/ }
 
 @media only screen and (max-width: 992px) {
   .contact-section {
@@ -1153,35 +1258,51 @@ form .form-row {
     display: none; }
   .main-text {
     position: relative;
-    font-size: clamp(2rem, 20vw, 4.5rem);
+    font-size: clamp(2rem, 12vw, 4.5rem);
     left: 0;
     margin: 0; }
     .main-text p {
       margin: 0; }
   .main-text2 {
     position: relative;
-    font-size: clamp(2rem, 20vw, 4.5rem);
+    font-size: clamp(2rem, 12vw, 4.5rem);
     right: 0;
     margin: 0; }
   .main-text3 {
     position: relative;
-    font-size: clamp(2rem, 20vw, 4.5rem);
+    font-size: clamp(2rem, 12vw, 4.5rem);
     left: 0;
     margin: 0; }
   .main-text4 {
     position: relative;
-    font-size: clamp(2rem, 20vw, 4.5rem);
+    font-size: clamp(2rem, 12vw, 4.5rem);
     right: 0;
     margin: 0; }
   .main-text5 {
     position: relative;
-    font-size: clamp(2rem, 20vw, 4.5rem);
+    font-size: clamp(2rem, 12vw, 4.5rem);
     left: 0;
     margin: 0; }
   .main-text6 {
     position: relative;
-    font-size: clamp(2rem, 20vw, 4.5rem);
-    right: 0; } }
+    font-size: clamp(2rem, 12vw, 4.5rem);
+    right: 0; }
+  /*Inicio backstage*/
+  .section3 {
+    margin-top: 4rem; }
+  .fixed-backstage-text {
+    writing-mode: unset;
+    transform: none;
+    position: relative;
+    text-align: center;
+    font-size: clamp(2.5rem, 5vw, 10rem);
+    color: #111111;
+    mix-blend-mode: normal; }
+  /*Fin backstage*/
+  .nav-link::before {
+    top: 80%;
+    left: 50%;
+    width: calc(100% - 3rem); } }
 
 @media only screen and (min-width: 768px) and (max-width: 1400px) {
   .fa-bars {
@@ -1196,7 +1317,7 @@ form .form-row {
   .logo {
     font-size: clamp(2rem, 5vw, 3.5rem); }
   .nav-link {
-    font-size: clamp(1.5rem, 5vw, 3.3rem); }
+    font-size: clamp(1.5rem, 2.5vw, 3.3rem); }
   /*Hero section*/
   .section h1 {
     font-size: clamp(2rem, 10vw, 40rem);
@@ -1256,34 +1377,34 @@ form .form-row {
     display: none; }
   .main-text {
     position: relative;
-    font-size: clamp(2rem, 20vw, 8rem);
+    font-size: clamp(2rem, 9vw, 8rem);
     left: 0;
     margin: 0; }
     .main-text p {
       margin: 0; }
   .main-text2 {
     position: relative;
-    font-size: clamp(2rem, 20vw, 8rem);
+    font-size: clamp(2rem, 9vw, 8rem);
     right: 0;
     margin: 0; }
   .main-text3 {
     position: relative;
-    font-size: clamp(2rem, 20vw, 8rem);
+    font-size: clamp(2rem, 9vw, 8rem);
     left: 0;
     margin: 0; }
   .main-text4 {
     position: relative;
-    font-size: clamp(2rem, 20vw, 8rem);
+    font-size: clamp(2rem, 9vw, 8rem);
     right: 0;
     margin: 0; }
   .main-text5 {
     position: relative;
-    font-size: clamp(2rem, 20vw, 8rem);
+    font-size: clamp(2rem, 9vw, 8rem);
     left: 0;
     margin: 0; }
   .main-text6 {
     position: relative;
-    font-size: clamp(2rem, 20vw, 8rem);
+    font-size: clamp(2rem, 9vw, 8rem);
     right: 0; }
   /*Fin main section*/
   /*Fin hero section*/
@@ -1294,7 +1415,20 @@ form .form-row {
     width: auto;
     margin-bottom: clamp(1rem, 6vw, 4rem); }
   .logo {
-    font-size: clamp(2rem, 8vw, 6rem); } }
+    font-size: clamp(2rem, 8vw, 6rem); }
+  /*Inicio backstage*/
+  .section3 {
+    margin-top: 4rem; }
+  .fixed-backstage-text {
+    writing-mode: unset;
+    transform: none;
+    position: relative;
+    text-align: center;
+    font-size: clamp(2.5rem, 5vw, 10rem);
+    margin-top: 5rem; }
+  .main-text-backstage {
+    font-size: clamp(2.5rem, 4.5vw, 10rem); }
+  /*Fin backstage*/ }
 
 @media only screen and (min-width: 1000px) and (max-width: 1400px) {
   .cards {
@@ -1376,7 +1510,21 @@ form .form-row {
     width: 100%; }
   .leila {
     width: clamp(400px, 40vw, 650px); }
-  /*Fin about section*/ }
+  /*Fin about section*/
+  /*Inicio backstage*/
+  .section3 {
+    margin-top: 4rem; }
+  .fixed-backstage-text {
+    writing-mode: unset;
+    transform: none;
+    position: relative;
+    text-align: center;
+    font-size: clamp(2.5rem, 4vw, 10rem);
+    mix-blend-mode: normal;
+    margin-top: 5rem; }
+  .main-text-backstage {
+    font-size: clamp(2.5rem, 4.5vw, 10rem); }
+  /*Fin backstage*/ }
 
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
   .carousel {
