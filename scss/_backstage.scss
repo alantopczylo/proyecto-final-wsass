@@ -1,4 +1,3 @@
-/*Global sections*/
 .section3{
     position: relative;
     height: auto;
@@ -8,19 +7,64 @@
     align-items: center;
     overflow-x: hidden;
     overflow: hidden;
-    border: 1px solid;    
-}
-/*Fin global sections*/
+    border: 1px solid; 
+    
+    .main-col{
+        width: auto;
+    }
 
-/*Main section*/
-.main-col{
-    width: auto;
-}
+    .main-vid1{
+        width: clamp(300px, 50vw, 550px);
+        padding: clamp(1rem, 5vw, 3rem);
+    }
+    
+    .main-vid2{
+        @extend .main-vid1;
+    }
+    
+    .main-vid3{
+        @extend .main-vid1;
+    }
+    
+    .main-vid4{
+        @extend .main-vid1;
+    }
 
-.main-section-backs{
-    margin-top: clamp(10px, 20vw, 10rem);
-    overflow-y: hidden;
-    margin-bottom: clamp(10px, 8vw, 6rem);
+    .main-img-back{
+        @extend .main-vid1;
+    }
+    
+    .main-img-back2{
+        width: clamp(300px, 50vw, 400px);
+        padding: clamp(1rem, 5vw, 3rem);
+    }
+    
+    .main-img-back3{
+        @extend .main-img-back2;
+    }
+    
+    .main-img-back4{
+        width: clamp(300px, 50vw, 450px); 
+        padding: clamp(1rem, 5vw, 3rem);
+    }
+    
+    .main-img-back5{
+        width: clamp(300px, 50vw, 500px);
+        padding: clamp(1rem, 5vw, 3rem);
+    }
+    
+    .main-img-back6{
+        @extend .main-img-back4;
+    }
+
+    .main-text-backstage{
+        font-family: $fuenteKenoky;
+        text-align: right;
+        width: auto;
+        text-decoration: none;
+        color: $negro; 
+        font-size: clamp(2.5rem, 3vw, 10rem);
+    }
 }
 
 .main-section2{
@@ -30,76 +74,13 @@
     overflow-y: hidden;
 }
 
-.main-vid1{
-    width: clamp(300px, 50vw, 550px);
-    padding: clamp(1rem, 5vw, 3rem);
-}
-
-.main-vid2{
-    width: clamp(300px, 50vw, 550px);
-    padding: clamp(1rem, 5vw, 3rem); 
-}
-
-.main-vid3{
-    width: clamp(300px, 50vw, 550px);
-    padding: clamp(1rem, 5vw, 3rem); 
-}
-
-.main-vid4{
-    width: clamp(300px, 50vw, 500px);
-    padding: clamp(1rem, 5vw, 3rem); 
-}
-
-.main-img-back{
-    width: clamp(300px, 50vw, 450px);
-    padding: clamp(1rem, 5vw, 3rem);
-}
-
-.main-img-back2{
-    width: clamp(300px, 50vw, 400px);
-    padding: clamp(1rem, 5vw, 3rem);
-}
-
-.main-img-back3{
-    width: clamp(300px, 50vw, 300px); 
-    padding: clamp(1rem, 5vw, 3rem);
-}
-
-.main-img-back4{
-    width: clamp(300px, 50vw, 350px); 
-    padding: clamp(1rem, 5vw, 3rem);
-}
-
-.main-img-back5{
-    width: clamp(300px, 50vw, 500px);
-    padding: clamp(1rem, 5vw, 3rem);
-}
-
-.main-img-back6{
-    width: clamp(300px, 50vw, 400px);
-    padding: clamp(1rem, 5vw, 3rem);
-}
-
-.main-text-backstage{
-    font-family: "KenokyLight";
-    text-align: right;
-    width: auto;
-    text-decoration: none;
-    color: $negro; 
-    font-size: clamp(2.5rem, 3vw, 10rem);
-}
-
-.fixed-backstage-text{
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    font-size: clamp(2.5rem, 3vw, 10rem); 
+.fixed-backstage-text{ 
+    font-size: clamp(2.5rem, 50vw, 10rem);
+    text-align: center;
     color: $negro;
     text-transform: uppercase;
-    font-family: "KenokyLight"; 
+    font-family: $fuenteKenoky; 
     letter-spacing: 3px;
-    position: fixed;
     z-index: -1;
-    margin: 0;
     padding: 0;
 }
-/*Fin main section*/

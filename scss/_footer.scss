@@ -1,4 +1,3 @@
-/*Footer*/
 .sticky{
     position: sticky;
     top: 100%;
@@ -21,31 +20,31 @@
 .workwme{
     padding: 0;
     margin: 0;
-}
 
-.workwme-text{
-    position: relative;
-}
+    .contact--footer{
+        text-align: center;
+        list-style: none;
 
-.workwme-text::before{
-    content: "";
-    background-color: #111;
-    width: calc(100% + 2rem);
-    height: .4rem;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transition: transform .4s ease-in-out ;
-    transform: translate(-50%, -50%) scaleX(0);
-}
+        .workwme-text{
+            position: relative;
+        }
 
-.workwme-text:hover::before{
-    transform: translate(-50%, -50%) scaleX(1);
-}
+        .workwme-text::before{
+            content: "";
+            background-color: $negro;
+            width: calc(100% + 2rem);
+            height: .4rem;
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transition: transform .4s ease-in-out ;
+            transform: translate(-50%, -50%) scaleX(0);
+        }
 
-.contact--footer{
-    text-align: center;
-    list-style: none;
+        .workwme-text:hover::before{
+            transform: translate(-50%, -50%) scaleX(1);
+        }
+    }  
 }
 
 .contact--footer{
@@ -54,7 +53,7 @@
         font-size: clamp(2rem, 10vw, 10rem);
         text-transform: uppercase;
         color: $negro;
-        font-family: "KenokyLight";
+        font-family: $fuenteKenoky;
     }
 
     a:hover{
@@ -63,32 +62,37 @@
     }
 }
 
-.followme{
-    padding: clamp(5px, 2vw, 8px);
-    text-transform: uppercase;
-    color:  rgb(95, 93, 93);
-    font-size: clamp(1rem, 4vw, 2rem);
-}
-
 .social-media{
     text-align: center;
-}
 
-.social-prop{
-    margin: 1rem 0;
+    .social-prop{
+        margin: 1rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        a{
+            font-size: clamp(1rem, 4vw, 2.5rem);
+            padding: clamp(5px, 2vw, 8px);
+            color: $negro;
+            
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+    
+        a:hover{
+            color:  rgb(95, 93, 93);
+            transition: all 0.3s ease-in-out;
+        }
 
-    a{
-        font-size: clamp(1rem, 4vw, 2.5rem);;
-        color: $negro;
-        margin: 0 1rem 0 1rem;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: 500;
-    }
-
-    a:hover{
-        color:  rgb(95, 93, 93);
-        transition: all 0.3s ease-in-out;
+        .followme{
+            padding: clamp(5px, 2vw, 8px);
+            text-transform: uppercase;
+            color:  rgb(95, 93, 93);
+            font-size: clamp(1rem, 4vw, 2rem);
+            margin: 0;
+        }
     }
 }
 
@@ -98,31 +102,31 @@
     display: flex;
     justify-content:space-between;
     margin: 2rem 0 0 0;
-}
-
-.copyright{
-    text-transform: uppercase;
-    font-size: clamp(0.5rem, 3vw, 1.2rem);
-    color: $negro;
-    font-weight: 500;
-}
-
-.web-developer{
-    text-transform: uppercase;
-    color: $negro;
-    font-size: clamp(0.5rem, 3vw, 1.2rem);
-    font-weight: 500;
-
-    a:hover{
+    
+    .copyright{
+        text-transform: uppercase;
+        font-size: clamp(0.5rem, 3vw, 1.2rem);
         color: $negro;
-        transition: all 0.3s ease-in-out;
+        font-weight: 500;
     }
-}
 
-.name-developer{
-    color: rgb(95, 93, 93);
-    text-decoration: none;
-    font-size: clamp(1.1rem, 3.5vw, 1.5rem);;
+    .web-developer{
+        text-transform: uppercase;
+        color: $negro;
+        font-size: clamp(0.5rem, 3vw, 1.2rem);
+        font-weight: 500;
+    
+        a:hover{
+            color: $negro;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    .name-developer{
+        color: rgb(95, 93, 93);
+        text-decoration: none;
+        font-size: clamp(1.1rem, 3.5vw, 1.5rem);;
+    }
 }
 
 .fa-long-arrow-alt-up{
@@ -138,4 +142,3 @@
     transform: scale(1.1);
     transition: all 0.2s ease-in-out;
 }
-/*Fin footer*/

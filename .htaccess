@@ -1,1 +1,5 @@
-ErrorDocument 404 /page_not_found.html
+# HTID:18026073: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:18026073:
+
+ErrorDocument 404 /pages/page-not-found.html

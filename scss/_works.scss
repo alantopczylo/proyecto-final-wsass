@@ -33,7 +33,7 @@
     font-size: clamp(1rem, 2.5rem, 4rem); 
     color: $negro;
     text-transform: uppercase;
-    font-family: "KenokyLight"; 
+    font-family: $fuenteKenoky; 
     font-weight: 00;
     letter-spacing: 3px;
 }
@@ -156,6 +156,4 @@
 .row{
     margin-bottom: 5rem;
 }
-
-
 /*Fin image gallery works*/

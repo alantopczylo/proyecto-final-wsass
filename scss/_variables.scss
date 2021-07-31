@@ -1,16 +1,19 @@
 /*Colores*/
-$negro: #111111;
+$negro: #161616;
 $naranja: rgb(218, 114, 40);
 /*Fin colores*/
 
 /*Fuentes*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
 
 $fuentePrincipal: 'Montserrat', sans-serif;
 $fuenteSecundaria: 'Playfair Display', serif;
+$fuenteAmerica: "GT America Bold", sans-serif;
+$fuenteKenoky: "KenokyLight", serif;
+$fuenteBigilla: "Bigilla", serif;
+$fuenteCoffekan: "CoffekanRegular", serif;
 
 @font-face {
     font-family: "Bigilla";
@@ -25,5 +28,10 @@ $fuenteSecundaria: 'Playfair Display', serif;
 @font-face {
     font-family: "KenokyLight";
     src: url("../fonts/KenokyLight.ttf");
+}
+
+@font-face {
+    font-family: "GT America Bold";
+    src: url("../fonts/GT\ America\ Bold.otf");
 }
 /*Fin fuentes*/

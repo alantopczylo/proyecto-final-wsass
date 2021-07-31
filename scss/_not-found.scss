@@ -1,0 +1,101 @@
+.main-not-found{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: clamp(1rem, 2rem, 2.5rem);
+
+    .error-page-flex-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        
+        .error-page-flex{
+            display: flex;
+            flex-direction: column;
+            
+            .error{
+                font-family: $fuenteAmerica;
+                font-size: clamp(4.8rem, 9vw, 15rem);
+                color: $negro;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+            
+            .page{
+                @extend .error
+            }
+            
+            .cuatrocientos{
+                @extend .error
+            }
+        }
+    }   
+}
+
+.travolta-center{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left:40%;
+    z-index: -1;  
+    
+    .travolta{
+        width: clamp(200px, 20vw, 500px);
+    }
+}
+
+.disperse-somewhere{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    z-index: -1;
+
+    .disperse{
+        width: clamp(200px, 20vw, 500px);
+    }
+}
+
+
+.bring-me-flex{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 100%;
+
+    .bring-me-link{
+        text-decoration: none;
+
+        .bring{
+            font-family: $fuenteAmerica;
+            font-size: clamp(4.8rem, 8.5vw, 17rem);
+            color: $negro;
+            font-weight: 600;
+            text-transform: uppercase;
+            display: flex;
+            margin: 0;
+            justify-content: flex-end;  
+        }
+
+        .me-back{
+            @extend .bring
+        }
+
+        .bmb-hover:hover{
+            color: grey;
+            transition: 0.4s all ease-in-out;
+        }
+
+        
+    }
+}
+
+
+
+
+
+
+
+
